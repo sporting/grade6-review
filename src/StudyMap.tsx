@@ -3,9 +3,9 @@ import {conceptQuestions,coverage} from './study-plan';
 import type {StudyPlan,Concept,Tier} from './study-plan';
 import type {Question} from './types';
 export function StudyMap({plan,pool,active,onPractice,onResume}:{plan:StudyPlan;pool:Question[];active:boolean;onPractice:(c:Concept,tier:Tier)=>void;onResume:()=>void}){
- const stats=coverage(plan,pool),source=sources.find(s=>s.sourceId===plan.sourceId);
- return <section className="learning-map" aria-labelledby="map-title">
- <div className="map-heading"><div><span className="eyebrow">依觀念安排練習</span><h2 id="map-title">重要觀念與題型覆蓋</h2></div><span className="badge">{plan.year}學年度 · {plan.period}</span></div>
+ const mapId='map-title-'+plan.id,stats=coverage(plan,pool),source=sources.find(s=>s.sourceId===plan.sourceId);
+ return <section className="learning-map" aria-labelledby={mapId}>
+ <div className="map-heading"><div><span className="eyebrow">依觀念安排練習</span><h2 id={mapId}>重要觀念與題型覆蓋</h2></div><span className="badge">{plan.year}學年度 · {plan.period}</span></div>
  <div className="scope-summary"><strong>{plan.edition}</strong><p>{plan.range}</p><p className="caption">{plan.scopeNote}</p>{source&&<a className="text-link" href={source.url} target="_blank" rel="noreferrer">核對原卷版本與範圍 ↗</a>}</div>
  {active&&<div className="map-resume"><span>目前有未完成回合，觀念練習暫停開始。完成後即可選題。</span><button onClick={onResume}>繼續原有回合</button></div>}
  <div className="map-stats"><span><strong>{stats.concepts}</strong> 個整理觀念</span><span><strong>{stats.withBasic}</strong> 個有基本題</span><span><strong>{stats.withApplication}</strong> 個有應用題</span><span><strong>{stats.both}</strong> 個兩類皆有題</span></div>

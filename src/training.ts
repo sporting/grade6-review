@@ -5,11 +5,11 @@ import type {State,Subject,Question,TrainingSettings,Level} from './types.ts';
 export const levels:Level[]=['自動','基礎','標準','進階'];
 export type LaunchKind='逐題練習'|'隨手練10題'|'模擬考'|'弱點特訓'|'考前必殺';
 export function preferences(s:State):TrainingSettings{return s.settings.training??{subject:'全科',stage:'全部',period:s.settings.examPeriod??'全部',level:'自動',plans:{},units:{}};}
-export function chosenPlan(prefs:TrainingSettings,subject:Subject){const id=prefs.plans[subject];return studyPlans.find(p=>p.id===id&&p.subject===subject)??studyPlans.find(p=>p.subject===subject&&(prefs.period==='全部'||p.period===prefs.period)&&(prefs.stage==='全部'||p.period.startsWith(prefs.stage)))??studyPlans.find(p=>p.subject===subject);}
+export function chosenPlan(prefs:TrainingSettings,subject:Subject){const id=prefs.plans[subject];return id&&id!=='all'&&id!=='unmapped'?studyPlans.find(p=>p.id===id&&p.subject===subject):undefined;}
 export function trainingPool(s:State,prefs=preferences(s)){
  return bank.filter(q=>{if(q.status!=='sourceChecked'||s.reports[q.questionId]||(prefs.subject!=='全科'&&prefs.subject!==q.subject))return false;
  const period=periodOf(q);if((prefs.period!=='全部'&&period!==prefs.period)||(prefs.stage!=='全部'&&!period?.startsWith(prefs.stage)))return false;
- const p=chosenPlan(prefs,q.subject);if(!p||prefs.plans[q.subject]==='unmapped'||q.questionSourceId!==p.sourceId)return false;
+ const selected=prefs.plans[q.subject],p=chosenPlan(prefs,q.subject);if(selected==='unmapped'||(selected&&selected!=='all'&&(!p||mappingOf(q)?.plan.id!==p.id)))return false;
  const units=prefs.units[q.subject];return !units||units.includes(mappingOf(q)?.unit.id??'');});
 }
 export function lastAnswers(s:State,qid:string){return s.history.filter(h=>h.questionId===qid&&h.isCorrect!==null).slice(-5);}
@@ -35,4 +35,4 @@ export type Skill=typeof skills[number];
 export function skillOf(q:Question):Skill{const map=mappingOf(q);if(map?.tier==='應用題')return '情境推理';if(q.subject==='英語'||q.subject==='國語')return '語文運用';if(q.subject==='數學'&&(/÷|最簡整數比/.test(q.stem)))return '數量運算';return '概念辨識';}
 export function performance(s:State,dimension:'subject'|'skill',subject?:Subject){const labels=dimension==='subject'?subjects:skills;return labels.map(label=>{const records=s.history.filter(h=>h.isCorrect!==null&&(!subject||h.subject===subject)&&(dimension==='subject'?h.subject===label:skillOf(bank.find(q=>q.questionId===h.questionId)!)===label));const right=records.filter(h=>h.isCorrect).length;return {label,total:records.length,right,value:records.length?Math.round(right/records.length*100):null};});}
 export function validTraining(t:any){if(!t||typeof t!=='object'||Array.isArray(t)||!['全科',...subjects].includes(t.subject)||!['全部','六上','六下'].includes(t.stage)||!['全部',...examPeriods].includes(t.period)||!levels.includes(t.level)||!t.plans||typeof t.plans!=='object'||Array.isArray(t.plans)||!t.units||typeof t.units!=='object'||Array.isArray(t.units))return false;
- return Object.entries(t.plans).every(([sub,id])=>subjects.includes(sub as Subject)&&(id==='unmapped'||studyPlans.some(p=>p.id===id&&p.subject===sub)))&&Object.entries(t.units).every(([sub,ids])=>subjects.includes(sub as Subject)&&(ids===undefined||Array.isArray(ids)&&ids.length<=40&&new Set(ids).size===ids.length&&ids.every(id=>studyPlans.some(p=>p.subject===sub&&p.units.some(u=>u.id===id)))));}
+ return Object.entries(t.plans).every(([sub,id])=>subjects.includes(sub as Subject)&&(id==='all'||id==='unmapped'||studyPlans.some(p=>p.id===id&&p.subject===sub)))&&Object.entries(t.units).every(([sub,ids])=>subjects.includes(sub as Subject)&&(ids===undefined||Array.isArray(ids)&&ids.length<=40&&new Set(ids).size===ids.length&&ids.every(id=>studyPlans.some(p=>p.subject===sub&&p.units.some(u=>u.id===id)))));}
