@@ -1,0 +1,111 @@
+{
+  "previousSources": [
+    {
+      "file": "chinese-key.doc",
+      "sha256": "2A1F3ACAA6E4FA03053DD0A17108339899EAE619FC15AB85E188BBC26AAA310A",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "chinese.pdf",
+      "sha256": "EB749A2F2D1900CCFEE8A71FE4969C219FA30E450F7AEC020E4BCB07B4055D0C",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "english-final.pdf",
+      "sha256": "7B61089432DC6E11C61C9EB1C3E7975BEFA830A0AE00843BD08C94725FE82EE9",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "english.pdf",
+      "sha256": "20347C14B48E5DB2CF8CE1CA568843FDFFA0DD2A8873D95A62B505B660B5536E",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "math-key1.jpg",
+      "sha256": "EF0B0011402FB93C3FEAF5A09552C063F78759F35A27C2B0F776E28240D10292",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "math-key2.jpg",
+      "sha256": "116D73DE052CA1225FB5838089A927C9479CD4D4ABE908088DDD824CC338445B",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "math.pdf",
+      "sha256": "91B490C5EE84F8D63AD5A8BDA5B70B761AF009DFD899F85B9FC58311B8DDBDD8",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "panda-key.pdf",
+      "sha256": "C282A2284DB6A8CFCF844ED6C2F5490419244C30CF44ADF04B2BCD58AE2BB582",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "panda-paper.pdf",
+      "sha256": "D0D84C5C19AEE14306A403C4B72284924DE0E1225EAB3F969F3BE0DBADA15AF5",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "science-final-key.pdf",
+      "sha256": "8F51BFCBC37AC10974B0093CBCE82C3A6AF2B798E01864A843128AA5361DFBAA",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "science-final.pdf",
+      "sha256": "CA6AFBE1CB9EB2E5BF46D53932D527DA89EC6916438767F8FDB3D42A7B532882",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "science.pdf",
+      "sha256": "B577D33C653E5F5F713FF3E17B5AF4EC1590B619C22223FBF31D58E835FCFF92",
+      "accessedAt": "2026-10-24"
+    },
+    {
+      "file": "social.pdf",
+      "sha256": "A9A0186F85B428D807F176478DFC4F4761E0CEBBDDA3453BFD0F1EEC672653AC",
+      "accessedAt": "2026-10-24"
+    }
+  ],
+  "expansionSources": [
+    {
+      "file": "taes-chinese-key.pdf",
+      "sha256": "394b6b0b196d42996e8cd956866c017b5cfd3ee288ad0ad58b544b8b941fdc21",
+      "note": "同安109下原始PDF，研究檔不附整份於交付壓縮檔"
+    },
+    {
+      "file": "taes-chinese-paper.pdf",
+      "sha256": "ea04f802cd1db905d3da42be4d347f55984228ab2d29b4f853ecd2038f29b26b",
+      "note": "同安109下原始PDF，研究檔不附整份於交付壓縮檔"
+    },
+    {
+      "file": "taes-english-key.pdf",
+      "sha256": "ec1d580ddf3d5ccd633bdd3f313495739c15ae129b58138a1482c056dea44c84",
+      "note": "同安109下原始PDF，研究檔不附整份於交付壓縮檔"
+    },
+    {
+      "file": "taes-english-paper.pdf",
+      "sha256": "247744f8965c678be9eac15119b03e46521779cdb1c9ab1b4f3f77949f5ea7de",
+      "note": "同安109下原始PDF，研究檔不附整份於交付壓縮檔"
+    },
+    {
+      "file": "taes-math-key.pdf",
+      "sha256": "99a9c63a0bf8d40f162372c0f33d8949839753d8c9a1c7a56f8ea795250dea9f",
+      "note": "同安109下原始PDF，研究檔不附整份於交付壓縮檔"
+    },
+    {
+      "file": "taes-math-paper.pdf",
+      "sha256": "7101f8a915de7226395dc2cbc5b5db0b009a228be4ea9476521dae97f21df483",
+      "note": "同安109下原始PDF，研究檔不附整份於交付壓縮檔"
+    },
+    {
+      "file": "taes-science-key.pdf",
+      "sha256": "6ce9de96827e8b4e03e4c73690d28ad256a05a226f9711b217ec45cad9765493",
+      "note": "同安109下原始PDF，研究檔不附整份於交付壓縮檔"
+    },
+    {
+      "file": "taes-science-paper.pdf",
+      "sha256": "5abf6d8cd88f9a8c240d22af48ac0ea0c4fb23facaf76cd9bc8b598d30994f5c",
+      "note": "同安109下原始PDF，研究檔不附整份於交付壓縮檔"
+    }
+  ]
+}

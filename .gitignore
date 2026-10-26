@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+
+.netlify/
+.env
+.env.*
+
+docs/DELIVERY-HISTORY.md
+docs/GITHUB-DIAGNOSTIC.md
+docs/SITES-ISSUE.md

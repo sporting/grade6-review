@@ -1,0 +1,6126 @@
+[
+  {
+    "id": "ddes-math-114",
+    "subject": "數學",
+    "edition": "版本未標示・大墩114",
+    "year": 114,
+    "period": "六上第一次段考",
+    "sourceId": "ddes-math-paper",
+    "range": "原卷主題：因數與分數、小數除法、比與比值",
+    "scopeNote": "原卷未明示教材版本與完整單元範圍；以下按原題整理，不視為任何版本的完整期中目次。",
+    "missing": [
+      "教材版本與章節範圍尚待核對",
+      "圖表題及有疑義答案未收錄"
+    ],
+    "units": [
+      {
+        "id": "factors",
+        "title": "因數與分數",
+        "concepts": [
+          {
+            "id": "ddes-math-paper-prime",
+            "title": "質數、合數與互質",
+            "goal": "辨識合數、互質及最大公因數的判斷條件。",
+            "basic": [
+              "ddes-114-m-一-2",
+              "ddes-114-m-一-3",
+              "ddes-114-m-二-2"
+            ],
+            "application": []
+          },
+          {
+            "id": "ddes-math-paper-reduced",
+            "title": "最簡分數",
+            "goal": "檢查最簡分數與公因數之間的關係。",
+            "basic": [
+              "ddes-114-m-一-1"
+            ],
+            "application": []
+          },
+          {
+            "id": "ddes-math-paper-division",
+            "title": "分數連除",
+            "goal": "依運算順序處理分數連除。",
+            "basic": [
+              "ddes-114-m-二-1"
+            ],
+            "application": []
+          },
+          {
+            "id": "ddes-math-paper-fraction-context",
+            "title": "分數的情境解題",
+            "goal": "從文字情境辨識數量關係，再選擇分數運算。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "decimal",
+        "title": "小數除法",
+        "concepts": [
+          {
+            "id": "ddes-math-paper-place",
+            "title": "位值與商的判斷",
+            "goal": "分辨被除數、除數的位值變化是否維持相同的商。",
+            "basic": [
+              "ddes-114-m-一-4"
+            ],
+            "application": []
+          },
+          {
+            "id": "ddes-math-paper-decimal-context",
+            "title": "小數除法應用",
+            "goal": "從生活條件列出除法算式並核對單位。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "ratio",
+        "title": "比與比值",
+        "concepts": [
+          {
+            "id": "ddes-math-paper-simplify",
+            "title": "最簡整數比",
+            "goal": "將小數比轉成最簡整數比。",
+            "basic": [
+              "ddes-114-m-一-5"
+            ],
+            "application": []
+          },
+          {
+            "id": "ddes-math-paper-age",
+            "title": "變動數量與比",
+            "goal": "分析年齡一起增加時，比是否保持不變。",
+            "basic": [],
+            "application": [
+              "ddes-114-m-一-6"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ddes-chinese-114",
+    "subject": "國語",
+    "edition": "版本未標示・大墩114",
+    "year": 114,
+    "period": "六上第一次段考",
+    "sourceId": "ddes-chinese-paper",
+    "range": "原卷獨立文字題：文章特色、字音、修辭",
+    "scopeNote": "未核對完整課次，僅列出現有獨立題可對照的語文能力。",
+    "missing": [
+      "課本版本、課次及各課生字範圍尚未建立",
+      "課文閱讀、段落大意、寫作與跨文本題未收錄"
+    ],
+    "units": [
+      {
+        "id": "genre",
+        "title": "文章特色",
+        "concepts": [
+          {
+            "id": "ddes-chinese-paper-science-text",
+            "title": "科普文的呈現方式",
+            "goal": "辨識說明資訊的文字、圖表與補充說明等形式。",
+            "basic": [
+              "ddes-114-c-三-2"
+            ],
+            "application": []
+          },
+          {
+            "id": "ddes-chinese-paper-reading",
+            "title": "閱讀證據",
+            "goal": "從完整文章找出支持判斷的語句。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "sound",
+        "title": "字音",
+        "concepts": [
+          {
+            "id": "ddes-chinese-paper-polyphone",
+            "title": "一字多音",
+            "goal": "依詞語語境辨識同一字的不同讀音。",
+            "basic": [
+              "ddes-114-c-三-3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "rhetoric",
+        "title": "修辭",
+        "concepts": [
+          {
+            "id": "ddes-chinese-paper-metonymy",
+            "title": "借代與代稱",
+            "goal": "辨識事物名稱與所指對象的關係。",
+            "basic": [
+              "ddes-114-c-三-4"
+            ],
+            "application": []
+          },
+          {
+            "id": "ddes-chinese-paper-rhetoric-effect",
+            "title": "修辭的表達效果",
+            "goal": "結合上下文判斷修辭使用的用意。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taes-chinese-109",
+    "subject": "國語",
+    "edition": "康軒版・同安109",
+    "year": 109,
+    "period": "六下期末考",
+    "sourceId": "taes-國語-paper",
+    "range": "原卷明示：第七至十一課",
+    "scopeNote": "課次依原卷標題；本頁目標為原卷題型整理，尚未取得同年度完整教師指引。",
+    "missing": [
+      "第七至十課的課文理解題尚未收錄",
+      "生字字音、改錯、寫作及完整閱讀材料尚缺",
+      "跨課詞語題不強行歸入特定一課"
+    ],
+    "units": [
+      {
+        "id": "cross-language",
+        "title": "第七至十一課・跨課詞語",
+        "concepts": [
+          {
+            "id": "taes-國語-paper-synonym",
+            "title": "詞語替換",
+            "goal": "判斷替換後的詞語是否保留原句意思。",
+            "basic": [
+              "taes-109-國語-三、2"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-國語-paper-word-writing",
+            "title": "語境中的詞語運用",
+            "goal": "在較完整的段落中選用合適詞語。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "lesson7",
+        "title": "第七課・油條報紙・文字夢",
+        "concepts": [
+          {
+            "id": "taes-國語-paper-l7",
+            "title": "人物經歷與敘事",
+            "goal": "整理人物經歷的先後、轉折與文章主旨。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "lesson8",
+        "title": "第八課・雕刻一座小島",
+        "concepts": [
+          {
+            "id": "taes-國語-paper-l8",
+            "title": "文體與描寫",
+            "goal": "辨識文章文體、描寫方法與用詞效果。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "lesson9",
+        "title": "第九課・童年・夏日・棉花糖",
+        "concepts": [
+          {
+            "id": "taes-國語-paper-l9",
+            "title": "童詩的意象與聯想",
+            "goal": "從語句辨識詩中的意象、聯想及情感。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "lesson10",
+        "title": "第十課・追夢的翅膀",
+        "concepts": [
+          {
+            "id": "taes-國語-paper-l10",
+            "title": "人物行動與主旨",
+            "goal": "連結人物的選擇、行動與文章傳達的意思。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "lesson11",
+        "title": "第十一課・祝賀你，孩子",
+        "concepts": [
+          {
+            "id": "taes-國語-paper-l11-word",
+            "title": "語句中的稱謂含義",
+            "goal": "依語境辨識稱謂所包含的意思。",
+            "basic": [
+              "taes-109-國語-三、6"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-國語-paper-l11-message",
+            "title": "祝福語句與篇章用意",
+            "goal": "結合上下文理解期許與祝福的表達。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taes-english-109",
+    "subject": "英語",
+    "edition": "何嘉仁版・同安109",
+    "year": 109,
+    "period": "六下期末考",
+    "sourceId": "taes-英語-paper",
+    "range": "原卷明示：U3～Review 2（系列名稱未標示）",
+    "scopeNote": "原卷未提供可核對的U3/U4完整課名，故不猜測各課歸屬；以下用原卷語言主題整理。",
+    "missing": [
+      "教材系列、U3/U4各課目次尚待核對",
+      "聽力、圖像辨識、句子改寫、翻譯與篇章閱讀尚未收錄"
+    ],
+    "units": [
+      {
+        "id": "past",
+        "title": "U3～Review 2・過去式與問答",
+        "concepts": [
+          {
+            "id": "taes-英語-paper-did",
+            "title": "Did問句與簡答",
+            "goal": "辨識一般過去式問句與簡答的對應。",
+            "basic": [
+              "taes-109-英語-八、1",
+              "taes-109-英語-八、2"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-英語-paper-verb",
+            "title": "肯定與否定句的動詞形式",
+            "goal": "依時間詞、助動詞判斷動詞形式。",
+            "basic": [
+              "taes-109-英語-八、3",
+              "taes-109-英語-八、5"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-英語-paper-wh",
+            "title": "What問句的回答",
+            "goal": "分辨詢問活動內容的問句與合適回答。",
+            "basic": [
+              "taes-109-英語-八、4"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-英語-paper-conversation",
+            "title": "完整對話與閱讀",
+            "goal": "依多句對話判斷人物、活動與時間。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "phonics",
+        "title": "U3～Review 2・字母組合發音",
+        "concepts": [
+          {
+            "id": "taes-英語-paper-ow",
+            "title": "ow／ou等畫線發音辨別",
+            "goal": "比較同組單字畫線部分的發音。",
+            "basic": [
+              "taes-109-英語-六、1",
+              "taes-109-英語-六、3"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-英語-paper-oy",
+            "title": "ay／ai／oy／oi等畫線發音辨別",
+            "goal": "比較不同字母組合在單字中的發音。",
+            "basic": [
+              "taes-109-英語-六、4",
+              "taes-109-英語-六、5"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-英語-paper-listening",
+            "title": "聽音辨詞",
+            "goal": "透過音檔辨認單字，不以文字題代替聽力。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taes-math-109",
+    "subject": "數學",
+    "edition": "翰林版・同安109",
+    "year": 109,
+    "period": "六下期末考",
+    "sourceId": "taes-數學-paper",
+    "range": "原卷明示：第四至六單元；另有跨單元回顧",
+    "scopeNote": "單元號碼依標題；完整章名尚未核實，以下採原卷主題名稱，避免套用其他年度目次。",
+    "missing": [
+      "第四至六單元的完整章名尚待同年度目次核對",
+      "原卷大部分計算、圖表及解題題型尚未收錄"
+    ],
+    "units": [
+      {
+        "id": "math-review",
+        "title": "跨單元回顧・質數與合數",
+        "concepts": [
+          {
+            "id": "taes-數學-paper-primes",
+            "title": "質數辨識",
+            "goal": "從一組整數辨識質數。",
+            "basic": [
+              "taes-109-數學-一、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "problem",
+        "title": "原卷主題・怎樣解題",
+        "concepts": [
+          {
+            "id": "taes-數學-paper-chicken",
+            "title": "雞兔數量的限制",
+            "goal": "結合動物腳數的條件，判斷可能與不可能的數量。",
+            "basic": [],
+            "application": [
+              "taes-109-數學-二、1(3)"
+            ]
+          },
+          {
+            "id": "taes-數學-paper-model",
+            "title": "列表與線段圖",
+            "goal": "用表格或線段圖整理條件。",
+            "basic": [],
+            "application": []
+          },
+          {
+            "id": "taes-數學-paper-age",
+            "title": "年齡與和差問題",
+            "goal": "建立兩個量之間的和、差、倍數關係。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "percent",
+        "title": "原卷主題・基準量與百分率",
+        "concepts": [
+          {
+            "id": "taes-數學-paper-reference",
+            "title": "基準量與比較量",
+            "goal": "辨認哪一個量當作1，再處理倍數關係。",
+            "basic": [],
+            "application": []
+          },
+          {
+            "id": "taes-數學-paper-discount",
+            "title": "折扣與成長率",
+            "goal": "分辨原量、改變量與改變後的量。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "statistics",
+        "title": "原卷主題・統計圖與速率",
+        "concepts": [
+          {
+            "id": "taes-數學-paper-chart",
+            "title": "圓形圖與百分率",
+            "goal": "讀取統計表並檢查整體與部分的關係。",
+            "basic": [],
+            "application": []
+          },
+          {
+            "id": "taes-數學-paper-speed",
+            "title": "速率與追趕、相遇",
+            "goal": "先統一單位，再連結距離、時間與速率。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taes-science-109",
+    "subject": "自然",
+    "edition": "南一版・同安109",
+    "year": 109,
+    "period": "六下期末考",
+    "sourceId": "taes-自然-paper",
+    "range": "原卷主題：簡單機械、生物、環境、顯微鏡與能源",
+    "scopeNote": "原卷明示南一版，但沒有章次範圍。以下為原卷主題清單，不宣稱與現行南一版單元相同。",
+    "missing": [
+      "同年度課本完整單元目次與本次章次尚待核對",
+      "槓桿、滑輪的圖解判斷，以及實驗操作與圖表探究題尚缺"
+    ],
+    "units": [
+      {
+        "id": "machines",
+        "title": "簡單機械",
+        "concepts": [
+          {
+            "id": "taes-自然-paper-axle",
+            "title": "輪軸的帶動方式",
+            "goal": "區分輪帶軸、軸帶輪及省力／費力的描述。",
+            "basic": [
+              "taes-109-自然-一、1",
+              "taes-109-自然-一、5"
+            ],
+            "application": [
+              "taes-109-自然-二、3"
+            ]
+          },
+          {
+            "id": "taes-自然-paper-gears",
+            "title": "齒輪與鏈條的轉動",
+            "goal": "分析齒輪咬合、鏈條帶動時的方向與齒數關係。",
+            "basic": [
+              "taes-109-自然-一、4",
+              "taes-109-自然-一、8"
+            ],
+            "application": [
+              "taes-109-自然-二、5",
+              "taes-109-自然-二、6"
+            ]
+          },
+          {
+            "id": "taes-自然-paper-tools",
+            "title": "工具與傳動方式",
+            "goal": "辨識生活工具所用的傳動裝置。",
+            "basic": [
+              "taes-109-自然-二、10"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-自然-paper-lever",
+            "title": "槓桿與滑輪圖解",
+            "goal": "由施力、支點及裝置圖判斷作用。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "title": "生物與環境",
+        "concepts": [
+          {
+            "id": "taes-自然-paper-adapt",
+            "title": "生物構造與環境適應",
+            "goal": "連結動物特徵、體溫及棲地條件。",
+            "basic": [
+              "taes-109-自然-一、9"
+            ],
+            "application": [
+              "taes-109-自然-二、2",
+              "taes-109-自然-二、11"
+            ]
+          },
+          {
+            "id": "taes-自然-paper-species",
+            "title": "外來種與候鳥",
+            "goal": "辨識外來種影響與鳥類遷徙類型。",
+            "basic": [
+              "taes-109-自然-二、8",
+              "taes-109-自然-二、9"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-自然-paper-ecology",
+            "title": "生態資料判讀",
+            "goal": "從觀察紀錄比較生物與棲地的關係。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "environment",
+        "title": "環境與永續",
+        "concepts": [
+          {
+            "id": "taes-自然-paper-carbon",
+            "title": "碳足跡與節約資源",
+            "goal": "辨識碳足跡、節水及環保標章的意義。",
+            "basic": [
+              "taes-109-自然-一、2",
+              "taes-109-自然-一、10",
+              "taes-109-自然-二、4"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-自然-paper-warming",
+            "title": "暖化與環境影響",
+            "goal": "區分暖化影響與其他環境問題。",
+            "basic": [
+              "taes-109-自然-一、3"
+            ],
+            "application": [
+              "taes-109-自然-二、14"
+            ]
+          },
+          {
+            "id": "taes-自然-paper-aqi",
+            "title": "空氣品質指標",
+            "goal": "辨識AQI數值與品質描述的關係。",
+            "basic": [
+              "taes-109-自然-二、7"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-自然-paper-data",
+            "title": "環境圖表與行動",
+            "goal": "依地圖或數據選擇合適的環境行動。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "microscope",
+        "title": "顯微鏡觀察",
+        "concepts": [
+          {
+            "id": "taes-自然-paper-lens",
+            "title": "構造與觀察用途",
+            "goal": "辨識顯微鏡的構造、放大與觀察用途。",
+            "basic": [
+              "taes-109-自然-一、7",
+              "taes-109-自然-二、13"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-自然-paper-operation",
+            "title": "操作與倍率",
+            "goal": "根據操作步驟或影像判斷觀察結果。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "energy",
+        "title": "能源轉換",
+        "concepts": [
+          {
+            "id": "taes-自然-paper-generation",
+            "title": "發電方式與能量來源",
+            "goal": "配對不同發電方式與所用的原料或能量。",
+            "basic": [
+              "taes-109-自然-三、(2)1",
+              "taes-109-自然-三、(2)2",
+              "taes-109-自然-三、(2)3",
+              "taes-109-自然-三、(2)4",
+              "taes-109-自然-三、(2)5"
+            ],
+            "application": []
+          },
+          {
+            "id": "taes-自然-paper-energy-choice",
+            "title": "能源選擇與環境取捨",
+            "goal": "依情境資料比較不同能源的效益與限制。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ptes-social-114",
+    "subject": "社會",
+    "edition": "版本未標示・北投114",
+    "year": 114,
+    "period": "六下期末考",
+    "sourceId": "ptes-social-paper",
+    "range": "原卷主題：全球環境、人權與國際合作",
+    "scopeNote": "教科書版本與章次未標示；只對照原卷主題，不套用南一、康軒或翰林的章節。",
+    "missing": [
+      "教材版本、章次及完整考試範圍尚未核對",
+      "新聞閱讀、跨資料比較、地圖與論述題尚未收錄"
+    ],
+    "units": [
+      {
+        "id": "global",
+        "title": "全球環境",
+        "concepts": [
+          {
+            "id": "ptes-social-paper-climate",
+            "title": "暖化與災害風險",
+            "goal": "將環境變化連結到海平面與淹水風險。",
+            "basic": [],
+            "application": [
+              "ptes-114-s-一-2",
+              "ptes-114-s-二-2"
+            ]
+          },
+          {
+            "id": "ptes-social-paper-agreement",
+            "title": "氣候合作與水資源",
+            "goal": "辨識國際氣候合作及來源所載水資源資訊。",
+            "basic": [
+              "ptes-114-s-一-3",
+              "ptes-114-s-一-5"
+            ],
+            "application": []
+          },
+          {
+            "id": "ptes-social-paper-evidence",
+            "title": "環境議題的資料判讀",
+            "goal": "比較圖表、報導與不同立場的證據。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "人權與國際合作",
+        "concepts": [
+          {
+            "id": "ptes-social-paper-rights",
+            "title": "勞動與消費中的人權",
+            "goal": "從工作待遇與購買行為辨識權益問題。",
+            "basic": [],
+            "application": [
+              "ptes-114-s-一-6",
+              "ptes-114-s-二-7"
+            ]
+          },
+          {
+            "id": "ptes-social-paper-org",
+            "title": "國際組織與功能",
+            "goal": "辨識聯合國、WHO及國際奧會等組織的功能。",
+            "basic": [
+              "ptes-114-s-一-7",
+              "ptes-114-s-一-9",
+              "ptes-114-s-一-10"
+            ],
+            "application": []
+          },
+          {
+            "id": "ptes-social-paper-connection",
+            "title": "全球事件的連鎖影響",
+            "goal": "連結能源政策與全球經濟影響。",
+            "basic": [],
+            "application": [
+              "ptes-114-s-一-8"
+            ]
+          },
+          {
+            "id": "ptes-social-paper-citizen",
+            "title": "多方觀點與公民行動",
+            "goal": "比較利害關係與資料後提出有依據的行動。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11421",
+    "subject": "英語",
+    "sourceId": "hses-english-11421-paper",
+    "edition": "版本未標示・和順114期中",
+    "year": 114,
+    "period": "六下第一次段考",
+    "range": "原卷語言主題：過去式、地點與日常活動問答",
+    "scopeNote": "按已核對的原卷主題整理觀念；基本題與應用題是本站題型分類，不是原校難度標籤，也不代表完整版本目次。",
+    "missing": [
+      "完整教材目次與各校本次進度仍須分別核對",
+      "圖像、第三方引用閱讀、非選擇作答及有疑義題目未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11421-unit-0",
+        "title": "過去式與問答",
+        "concepts": [
+          {
+            "id": "hses-english-11421-concept-0",
+            "title": "過去式與問答",
+            "goal": "區分did與be動詞過去式，依問句選擇動詞形式與地點回答。",
+            "basic": [
+              "hses-english-11421-六、21",
+              "hses-english-11421-六、22",
+              "hses-english-11421-六、23",
+              "hses-english-11421-六、24"
+            ],
+            "application": [
+              "hses-english-11421-七、30"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11421-unit-1",
+        "title": "日常對話",
+        "concepts": [
+          {
+            "id": "hses-english-11421-concept-1",
+            "title": "日常對話",
+            "goal": "辨識交通方式、用餐時間與休閒活動的對應問答。",
+            "basic": [],
+            "application": [
+              "hses-english-11421-七、26",
+              "hses-english-11421-七、27",
+              "hses-english-11421-七、28"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11422",
+    "subject": "英語",
+    "sourceId": "hses-english-11422-paper",
+    "edition": "版本未標示・和順114期末",
+    "year": 114,
+    "period": "六下期末考",
+    "range": "原卷語言主題：時間、價格與數量、所有格與過去式",
+    "scopeNote": "按已核對的原卷主題整理觀念；基本題與應用題是本站題型分類，不是原校難度標籤，也不代表完整版本目次。",
+    "missing": [
+      "完整教材目次與各校本次進度仍須分別核對",
+      "圖像、第三方引用閱讀、非選擇作答及有疑義題目未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11422-unit-0",
+        "title": "時間介系詞",
+        "concepts": [
+          {
+            "id": "hses-english-11422-concept-0",
+            "title": "時間介系詞",
+            "goal": "辨認鐘點時間所用的介系詞。",
+            "basic": [
+              "hses-english-11422-六、21"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11422-unit-1",
+        "title": "數量與價格問句",
+        "concepts": [
+          {
+            "id": "hses-english-11422-concept-1",
+            "title": "數量與價格問句",
+            "goal": "辨識how many與how much及單複數be動詞。",
+            "basic": [
+              "hses-english-11422-六、22",
+              "hses-english-11422-六、24"
+            ],
+            "application": [
+              "hses-english-11422-七、27"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11422-unit-2",
+        "title": "所有格與代名詞",
+        "concepts": [
+          {
+            "id": "hses-english-11422-concept-2",
+            "title": "所有格與代名詞",
+            "goal": "配對所有格與對應的主詞所有格。",
+            "basic": [
+              "hses-english-11422-六、23"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11422-unit-3",
+        "title": "過去式與問答",
+        "concepts": [
+          {
+            "id": "hses-english-11422-concept-3",
+            "title": "過去式與問答",
+            "goal": "依過去時間詞選用be動詞過去式。",
+            "basic": [
+              "hses-english-11422-六、25"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-science-11312",
+    "subject": "自然",
+    "sourceId": "hses-science-11312-paper",
+    "edition": "版本未標示・和順113",
+    "year": 113,
+    "period": "六上期末考",
+    "range": "原卷主題：電磁鐵、流水、岩石礦物、地震與地景",
+    "scopeNote": "按已核對的原卷主題整理觀念；基本題與應用題是本站題型分類，不是原校難度標籤，也不代表完整版本目次。",
+    "missing": [
+      "完整教材目次與各校本次進度仍須分別核對",
+      "圖像、第三方引用閱讀、非選擇作答及有疑義題目未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-science-11312-unit-0",
+        "title": "電磁鐵",
+        "concepts": [
+          {
+            "id": "hses-science-11312-concept-0",
+            "title": "電磁鐵",
+            "goal": "辨識磁極、電流與磁力的變因，並比較電磁鐵、磁鐵與馬達的應用。",
+            "basic": [
+              "hses-science-11312-一、1",
+              "hses-science-11312-一、4",
+              "hses-science-11312-一、5",
+              "hses-science-11312-一、7",
+              "hses-science-11312-六、2(1)",
+              "hses-science-11312-六、2(2)",
+              "hses-science-11312-六、2(3)",
+              "hses-science-11312-六、2(4)",
+              "hses-science-11312-六、2(5)",
+              "hses-science-11312-六、2(6)"
+            ],
+            "application": [
+              "hses-science-11312-二、4",
+              "hses-science-11312-二、6",
+              "hses-science-11312-二、9",
+              "hses-science-11312-六、3(1)",
+              "hses-science-11312-六、3(2)",
+              "hses-science-11312-六、3(3)",
+              "hses-science-11312-六、3(4)",
+              "hses-science-11312-六、3(5)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11312-unit-1",
+        "title": "岩石與礦物",
+        "concepts": [
+          {
+            "id": "hses-science-11312-concept-1",
+            "title": "岩石與礦物",
+            "goal": "區分岩石形成原因並連結礦物用途。",
+            "basic": [
+              "hses-science-11312-一、2",
+              "hses-science-11312-一、3",
+              "hses-science-11312-二、5",
+              "hses-science-11312-四、3(1)",
+              "hses-science-11312-四、3(2)",
+              "hses-science-11312-四、3(3)",
+              "hses-science-11312-四、3(4)",
+              "hses-science-11312-四、3(5)",
+              "hses-science-11312-四、3(6)"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11312-unit-2",
+        "title": "流水與地形",
+        "concepts": [
+          {
+            "id": "hses-science-11312-concept-2",
+            "title": "流水與地形",
+            "goal": "連結河流坡度、速度、侵蝕、搬運與堆積。",
+            "basic": [
+              "hses-science-11312-一、6",
+              "hses-science-11312-二、2"
+            ],
+            "application": [
+              "hses-science-11312-二、1",
+              "hses-science-11312-二、3",
+              "hses-science-11312-二、7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11312-unit-3",
+        "title": "地震與地景保育",
+        "concepts": [
+          {
+            "id": "hses-science-11312-concept-3",
+            "title": "地震與地景保育",
+            "goal": "辨識地震原因與地質公園的功能。",
+            "basic": [
+              "hses-science-11312-二、8",
+              "hses-science-11312-二、10"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-science-11412",
+    "subject": "自然",
+    "sourceId": "hses-science-11412-paper",
+    "edition": "版本未標示・和順114期末",
+    "year": 114,
+    "period": "六上期末考",
+    "range": "原卷主題：流水、岩石礦物、電磁鐵及地震防災",
+    "scopeNote": "按已核對的原卷主題整理觀念；基本題與應用題是本站題型分類，不是原校難度標籤，也不代表完整版本目次。",
+    "missing": [
+      "完整教材目次與各校本次進度仍須分別核對",
+      "圖像、第三方引用閱讀、非選擇作答及有疑義題目未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-science-11412-unit-0",
+        "title": "電磁鐵",
+        "concepts": [
+          {
+            "id": "hses-science-11412-concept-0",
+            "title": "電磁鐵",
+            "goal": "辨識電流磁效應、磁力控制、改變磁極與生活應用。",
+            "basic": [
+              "hses-science-11412-一、7",
+              "hses-science-11412-一、11",
+              "hses-science-11412-一、13",
+              "hses-science-11412-一、21",
+              "hses-science-11412-一、26",
+              "hses-science-11412-一、27",
+              "hses-science-11412-一、28"
+            ],
+            "application": [
+              "hses-science-11412-一、3",
+              "hses-science-11412-一、9",
+              "hses-science-11412-一、14",
+              "hses-science-11412-一、17",
+              "hses-science-11412-一、19",
+              "hses-science-11412-一、24"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11412-unit-1",
+        "title": "岩石與礦物",
+        "concepts": [
+          {
+            "id": "hses-science-11412-concept-1",
+            "title": "岩石與礦物",
+            "goal": "從形成原因、刻劃結果、特徵與用途辨認岩石及礦物。",
+            "basic": [
+              "hses-science-11412-一、2",
+              "hses-science-11412-一、8",
+              "hses-science-11412-一、15",
+              "hses-science-11412-一、20",
+              "hses-science-11412-二、2(1)",
+              "hses-science-11412-二、2(2)",
+              "hses-science-11412-二、2(3)",
+              "hses-science-11412-二、4(1)",
+              "hses-science-11412-二、4(2)",
+              "hses-science-11412-二、4(3)"
+            ],
+            "application": [
+              "hses-science-11412-一、5",
+              "hses-science-11412-一、10",
+              "hses-science-11412-一、23",
+              "hses-science-11412-二、3(1)",
+              "hses-science-11412-二、3(2)",
+              "hses-science-11412-二、3(3)",
+              "hses-science-11412-二、3(4)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11412-unit-2",
+        "title": "流水與地形",
+        "concepts": [
+          {
+            "id": "hses-science-11412-concept-2",
+            "title": "流水與地形",
+            "goal": "連結河流上中下游特徵與風化、侵蝕、堆積。",
+            "basic": [
+              "hses-science-11412-一、22",
+              "hses-science-11412-一、25",
+              "hses-science-11412-一、30"
+            ],
+            "application": [
+              "hses-science-11412-一、1",
+              "hses-science-11412-一、12"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11412-unit-3",
+        "title": "地震與防災",
+        "concepts": [
+          {
+            "id": "hses-science-11412-concept-3",
+            "title": "地震與防災",
+            "goal": "區分震源、震央、規模、震度並辨認避難用品的保存條件。",
+            "basic": [
+              "hses-science-11412-一、4",
+              "hses-science-11412-一、16"
+            ],
+            "application": [
+              "hses-science-11412-一、18"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-science-11411",
+    "subject": "自然",
+    "sourceId": "hses-science-11411-paper",
+    "edition": "版本未標示・和順114期中",
+    "year": 114,
+    "period": "六上第一次段考",
+    "range": "已核對的原卷主題：水的形態與天氣",
+    "scopeNote": "按已核對的原卷主題整理觀念；基本題與應用題是本站題型分類，不是原校難度標籤，也不代表完整版本目次。",
+    "missing": [
+      "完整教材目次與各校本次進度仍須分別核對",
+      "圖像、第三方引用閱讀、非選擇作答及有疑義題目未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-science-11411-unit-0",
+        "title": "水的形態與天氣",
+        "concepts": [
+          {
+            "id": "hses-science-11411-concept-0",
+            "title": "水的形態與天氣",
+            "goal": "依水蒸氣遇冷的位置與溫度，區分雲、露、霧及霜。",
+            "basic": [
+              "hses-science-11411-一、2(1)",
+              "hses-science-11411-一、2(2)",
+              "hses-science-11411-一、2(3)"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11311",
+    "subject": "國語",
+    "sourceId": "hses-chinese-11311-paper",
+    "edition": "版本未標示・和順113",
+    "year": 113,
+    "period": "六上第一次段考",
+    "range": "原卷獨立文字題：字音、字詞、句意、文章結構與成語",
+    "scopeNote": "按已核對的原卷主題整理觀念；基本題與應用題是本站題型分類，不是原校難度標籤，也不代表完整版本目次。",
+    "missing": [
+      "完整教材目次與各校本次進度仍須分別核對",
+      "圖像、第三方引用閱讀、非選擇作答及有疑義題目未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11311-unit-0",
+        "title": "字形與詞語",
+        "concepts": [
+          {
+            "id": "hses-chinese-11311-concept-0",
+            "title": "字形與詞語",
+            "goal": "依完整語境辨識字形、詞義及近義詞替換。",
+            "basic": [
+              "hses-chinese-11311-三、1",
+              "hses-chinese-11311-三、12"
+            ],
+            "application": [
+              "hses-chinese-11311-三、5",
+              "hses-chinese-11311-三、11"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11311-unit-1",
+        "title": "字音",
+        "concepts": [
+          {
+            "id": "hses-chinese-11311-concept-1",
+            "title": "字音",
+            "goal": "依詞義分辨多音字在語句中的讀音。",
+            "basic": [
+              "hses-chinese-11311-三、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11311-unit-2",
+        "title": "文章結構",
+        "concepts": [
+          {
+            "id": "hses-chinese-11311-concept-2",
+            "title": "文章結構",
+            "goal": "辨識議論文結構及科普文的說明方式。",
+            "basic": [
+              "hses-chinese-11311-三、3",
+              "hses-chinese-11311-三、13"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11311-unit-3",
+        "title": "語句理解",
+        "concepts": [
+          {
+            "id": "hses-chinese-11311-concept-3",
+            "title": "語句理解",
+            "goal": "檢查語意矛盾、主被動及語序改變造成的差異。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11311-三、6",
+              "hses-chinese-11311-三、7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11311-unit-4",
+        "title": "關聯詞",
+        "concepts": [
+          {
+            "id": "hses-chinese-11311-concept-4",
+            "title": "關聯詞",
+            "goal": "依前後分句關係選用關聯詞。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11311-三、9"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11311-unit-5",
+        "title": "成語運用",
+        "concepts": [
+          {
+            "id": "hses-chinese-11311-concept-5",
+            "title": "成語運用",
+            "goal": "依人物行為、事件與語境選擇合適成語。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11311-三、15",
+              "hses-chinese-11311-三、16",
+              "hses-chinese-11311-三、17"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-11311",
+    "subject": "數學",
+    "sourceId": "hses-math-11311-paper",
+    "edition": "版本未標示・和順113",
+    "year": 113,
+    "period": "六上第一次段考",
+    "range": "原卷主題：質因數、公因數與公倍數、分數與小數除法、比",
+    "scopeNote": "按已核對的原卷主題整理觀念；基本題與應用題是本站題型分類，不是原校難度標籤，也不代表完整版本目次。",
+    "missing": [
+      "完整教材目次與各校本次進度仍須分別核對",
+      "圖像、第三方引用閱讀、非選擇作答及有疑義題目未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-math-11311-unit-0",
+        "title": "質因數與質數",
+        "concepts": [
+          {
+            "id": "hses-math-11311-concept-0",
+            "title": "質因數與質數",
+            "goal": "辨識質數、質因數及1的性質。",
+            "basic": [
+              "hses-math-11311-一、1",
+              "hses-math-11311-一、8",
+              "hses-math-11311-一、10"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11311-unit-1",
+        "title": "最簡分數",
+        "concepts": [
+          {
+            "id": "hses-math-11311-concept-1",
+            "title": "最簡分數",
+            "goal": "檢查最簡分數和公因數的關係。",
+            "basic": [
+              "hses-math-11311-一、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11311-unit-2",
+        "title": "小數除法",
+        "concepts": [
+          {
+            "id": "hses-math-11311-concept-2",
+            "title": "小數除法",
+            "goal": "理解位值、商的大小與四捨五入。",
+            "basic": [
+              "hses-math-11311-一、4",
+              "hses-math-11311-二、7",
+              "hses-math-11311-二、13"
+            ],
+            "application": [
+              "hses-math-11311-二、1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11311-unit-3",
+        "title": "比與數量關係",
+        "concepts": [
+          {
+            "id": "hses-math-11311-concept-3",
+            "title": "比與數量關係",
+            "goal": "依情境辨認兩數量的對應、等比與是否維持相同比值。",
+            "basic": [
+              "hses-math-11311-一、7"
+            ],
+            "application": [
+              "hses-math-11311-一、5",
+              "hses-math-11311-一、6",
+              "hses-math-11311-一、9",
+              "hses-math-11311-二、6",
+              "hses-math-11311-二、9",
+              "hses-math-11311-二、11",
+              "hses-math-11311-二、12"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11311-unit-4",
+        "title": "公因數與公倍數",
+        "concepts": [
+          {
+            "id": "hses-math-11311-concept-4",
+            "title": "公因數與公倍數",
+            "goal": "從整除及等分情境區分公因數、公倍數。",
+            "basic": [
+              "hses-math-11311-二、2"
+            ],
+            "application": [
+              "hses-math-11311-二、4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11311-unit-5",
+        "title": "分數除法",
+        "concepts": [
+          {
+            "id": "hses-math-11311-concept-5",
+            "title": "分數除法",
+            "goal": "從單位量與倍數關係判斷除法算式。",
+            "basic": [],
+            "application": [
+              "hses-math-11311-二、3",
+              "hses-math-11311-二、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11311-unit-6",
+        "title": "數量關係",
+        "concepts": [
+          {
+            "id": "hses-math-11311-concept-6",
+            "title": "數量關係",
+            "goal": "從總數和部分數量判斷未知數。",
+            "basic": [],
+            "application": [
+              "hses-math-11311-二、14"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taes-social-109",
+    "subject": "社會",
+    "sourceId": "taes-社會-paper",
+    "edition": "康軒版・同安109",
+    "year": 109,
+    "period": "六下期末考",
+    "range": "原卷明示：第三至四單元",
+    "scopeNote": "按已核對的原卷主題整理觀念；基本題與應用題是本站題型分類，不是原校難度標籤，也不代表完整版本目次。",
+    "missing": [
+      "完整教材目次與各校本次進度仍須分別核對",
+      "圖像、第三方引用閱讀、非選擇作答及有疑義題目未收錄"
+    ],
+    "units": [
+      {
+        "id": "taes-social-109-unit-0",
+        "title": "塑膠與海洋環境",
+        "concepts": [
+          {
+            "id": "taes-social-109-concept-0",
+            "title": "塑膠與海洋環境",
+            "goal": "辨識一次性塑膠、海流垃圾聚集與生態影響。",
+            "basic": [
+              "taes-社會-一、(二)4",
+              "taes-社會-一、(二)6"
+            ],
+            "application": [
+              "taes-社會-一、(二)5",
+              "taes-社會-一、(二)7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "taes-social-109-unit-1",
+        "title": "氣候與永續",
+        "concepts": [
+          {
+            "id": "taes-social-109-concept-1",
+            "title": "氣候與永續",
+            "goal": "辨識氣候變遷、國際合作、能源與綠建築。",
+            "basic": [
+              "taes-社會-一、(三)1",
+              "taes-社會-一、(三)4",
+              "taes-社會-一、(三)5",
+              "taes-社會-一、(三)6",
+              "taes-社會-一、(三)7"
+            ],
+            "application": [
+              "taes-社會-一、(三)3",
+              "taes-社會-一、(三)8"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "taes-social-109-unit-2",
+        "title": "糧食與水資源",
+        "concepts": [
+          {
+            "id": "taes-social-109-concept-2",
+            "title": "糧食與水資源",
+            "goal": "區分資源總量、分配與糧食援助的作用。",
+            "basic": [
+              "taes-社會-一、(四)1",
+              "taes-社會-一、(四)2",
+              "taes-社會-一、(四)3",
+              "taes-社會-一、(四)4",
+              "taes-社會-一、(四)5",
+              "taes-社會-一、(四)7",
+              "taes-社會-一、(四)8",
+              "taes-社會-一、(四)9"
+            ],
+            "application": [
+              "taes-社會-一、(四)6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "taes-social-109-unit-3",
+        "title": "國際組織",
+        "concepts": [
+          {
+            "id": "taes-social-109-concept-3",
+            "title": "國際組織",
+            "goal": "依議題辨認相關國際組織的功能。",
+            "basic": [
+              "taes-社會-二、(二)(1)1",
+              "taes-社會-二、(二)(1)2",
+              "taes-社會-二、(二)(1)3",
+              "taes-社會-二、(二)(1)4",
+              "taes-社會-二、(二)(1)5",
+              "taes-社會-二、(二)(1)6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "taes-social-109-unit-4",
+        "title": "全球經濟與人權",
+        "concepts": [
+          {
+            "id": "taes-social-109-concept-4",
+            "title": "全球經濟與人權",
+            "goal": "連結全球經濟、資源、貿易與人權保障。",
+            "basic": [
+              "taes-社會-二、(三)1",
+              "taes-社會-二、(三)4"
+            ],
+            "application": [
+              "taes-社會-二、(三)2",
+              "taes-社會-二、(三)3",
+              "taes-社會-二、(三)5",
+              "taes-社會-二、(三)6"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wuhua-english-10922",
+    "subject": "英語",
+    "edition": "版本未標示・五華109下期末",
+    "year": 109,
+    "period": "六下期末考",
+    "sourceId": "wuhua-english-10922-paper",
+    "range": "原卷第2頁G、I、J中已核驗且不依賴圖片的13道原題；主題為現在式、症狀及場所問答",
+    "scopeNote": "FM8為教師檢討檔名，未據此推定出版社或完整教材課次。觀念與基本／應用題為本站整理分類，非原校難度標記。",
+    "missing": [
+      "完整教材版本與課次目次尚待核對",
+      "聽力、圖片、畫圖題未納入"
+    ],
+    "units": [
+      {
+        "id": "wuhua-english-10922-unit-0",
+        "title": "現在式與主詞一致",
+        "concepts": [
+          {
+            "id": "wuhua-english-10922-concept-0",
+            "title": "現在式與主詞一致",
+            "goal": "依主詞辨識has/have與Does問句、否定簡答。",
+            "basic": [
+              "wuhua-english-10922-26",
+              "wuhua-english-10922-27",
+              "wuhua-english-10922-44"
+            ],
+            "application": [
+              "wuhua-english-10922-31",
+              "wuhua-english-10922-42"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wuhua-english-10922-unit-1",
+        "title": "地點問答與there be",
+        "concepts": [
+          {
+            "id": "wuhua-english-10922-concept-1",
+            "title": "地點問答與there be",
+            "goal": "依完整問答辨識場所詢問、there be及街道位置。",
+            "basic": [
+              "wuhua-english-10922-30",
+              "wuhua-english-10922-43"
+            ],
+            "application": [
+              "wuhua-english-10922-29"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wuhua-english-10922-unit-2",
+        "title": "詞義與日常用語",
+        "concepts": [
+          {
+            "id": "wuhua-english-10922-concept-2",
+            "title": "詞義與日常用語",
+            "goal": "依完整日常對話辨認原卷所列慣用語。",
+            "basic": [],
+            "application": [
+              "wuhua-english-10922-32"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wuhua-english-10922-unit-3",
+        "title": "拼字與冠詞",
+        "concepts": [
+          {
+            "id": "wuhua-english-10922-concept-3",
+            "title": "拼字與冠詞",
+            "goal": "辨認bookstore的拼字及症狀名詞前的冠詞。",
+            "basic": [
+              "wuhua-english-10922-38",
+              "wuhua-english-10922-39"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "wuhua-english-10922-unit-4",
+        "title": "街道介系詞與大小寫",
+        "concepts": [
+          {
+            "id": "wuhua-english-10922-concept-4",
+            "title": "街道介系詞與大小寫",
+            "goal": "辨認街道前介系詞on及街道名稱的字首大寫。",
+            "basic": [
+              "wuhua-english-10922-40"
+            ],
+            "application": [
+              "wuhua-english-10922-41"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11122",
+    "subject": "英語",
+    "edition": "版本未標示・和順111下期末",
+    "year": 111,
+    "period": "六下期末考",
+    "sourceId": "hses-english-11122-paper",
+    "range": "原卷已核驗：過去式問答、時間副詞、句子重組",
+    "scopeNote": "僅對應此原卷；尚未核對現行教材目次，基本／應用為本站題型分類。",
+    "missing": [
+      "教材版本與完整課次未核對",
+      "聽力、圖片與閱讀題組未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11122-u0",
+        "title": "過去式與問答",
+        "concepts": [
+          {
+            "id": "hses-english-11122-c0",
+            "title": "過去式與問答",
+            "goal": "辨認過去式問答與時間副詞的原卷用法。",
+            "basic": [
+              "hses-english-11122-九、30",
+              "hses-english-11122-九、31",
+              "hses-english-11122-九、32",
+              "hses-english-11122-九、33",
+              "hses-english-11122-九、34",
+              "hses-english-11122-九、35"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11122-u1",
+        "title": "句子重組",
+        "concepts": [
+          {
+            "id": "hses-english-11122-c1",
+            "title": "句子重組",
+            "goal": "依原卷字詞重組過去式直述句與問句。",
+            "basic": [],
+            "application": [
+              "hses-english-11122-十一、43",
+              "hses-english-11122-十一、44",
+              "hses-english-11122-十一、45"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-10912-rearrange",
+    "subject": "英語",
+    "edition": "版本未標示・和順109上期末・句子重組",
+    "year": 109,
+    "period": "六上期末考",
+    "sourceId": "hses-english-10912-paper",
+    "range": "七、句子重組兩道完整原題",
+    "scopeNote": "補充原卷重組題，非完整教材範圍；應用為本站題型分類。",
+    "missing": [
+      "版本與完整目次未核對",
+      "圖片、聽力及引用閱讀不收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-english-10912-rearrange-u",
+        "title": "句子重組",
+        "concepts": [
+          {
+            "id": "hses-english-10912-rearrange-c",
+            "title": "句子重組",
+            "goal": "依原卷字詞重組日常活動問答與時間句。",
+            "basic": [],
+            "application": [
+              "hses-english-10912-七、1",
+              "hses-english-10912-七、2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11111-rearrange",
+    "subject": "英語",
+    "edition": "版本未標示・和順11111・句子重組",
+    "year": 111,
+    "period": "六上第一次段考",
+    "sourceId": "hses-english-11111-paper",
+    "range": "同原卷題號一致的完整句子重組題",
+    "scopeNote": "應用為本站分類，未完成現行教材目次對照。",
+    "missing": [
+      "教材版本及完整範圍未核對",
+      "聽力、圖像與引用閱讀排除"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11111-rearrange-u",
+        "title": "句子重組",
+        "concepts": [
+          {
+            "id": "hses-english-11111-rearrange-c",
+            "title": "句子重組",
+            "goal": "依原題字詞重組完整句子。",
+            "basic": [],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11121-rearrange",
+    "subject": "英語",
+    "edition": "版本未標示・和順11121・句子重組",
+    "year": 111,
+    "period": "六下第一次段考",
+    "sourceId": "hses-english-11121-paper",
+    "range": "同原卷題號一致的完整句子重組題",
+    "scopeNote": "應用為本站分類，未完成現行教材目次對照。",
+    "missing": [
+      "教材版本及完整範圍未核對",
+      "聽力、圖像與引用閱讀排除"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11121-rearrange-u",
+        "title": "句子重組",
+        "concepts": [
+          {
+            "id": "hses-english-11121-rearrange-c",
+            "title": "句子重組",
+            "goal": "依原題字詞重組完整句子。",
+            "basic": [],
+            "application": [
+              "hses-english-11121-十一、2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11322-rearrange",
+    "subject": "英語",
+    "edition": "版本未標示・和順11322・句子重組",
+    "year": 113,
+    "period": "六下期末考",
+    "sourceId": "hses-english-11322-paper",
+    "range": "同原卷題號一致的完整句子重組題",
+    "scopeNote": "應用為本站分類，未完成現行教材目次對照。",
+    "missing": [
+      "教材版本及完整範圍未核對",
+      "聽力、圖像與引用閱讀排除"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11322-rearrange-u",
+        "title": "句子重組",
+        "concepts": [
+          {
+            "id": "hses-english-11322-rearrange-c",
+            "title": "句子重組",
+            "goal": "依原題字詞重組完整句子。",
+            "basic": [],
+            "application": [
+              "hses-english-11322-G、2",
+              "hses-english-11322-G、4"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-extra-11311",
+    "subject": "數學",
+    "edition": "版本未標示・和順113六上第一次段考",
+    "year": 113,
+    "period": "六上第一次段考",
+    "sourceId": "hses-math-11311-paper",
+    "range": "已核驗原卷主題；非完整教材目次",
+    "scopeNote": "基本／應用是本站分類；保留來源原題與填答形式，不生成題幹、答案、選項或解析。",
+    "missing": [
+      "教材版本、完整目次與現行進度未核對",
+      "依賴圖形、引用內容與疑義題未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-math-extra-11311-unit-0",
+        "title": "分數與小數運算",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11311-concept-0",
+            "title": "分數與小數運算",
+            "goal": "辨識與應用原卷分數與小數運算的數量條件。",
+            "basic": [
+              "hses-math-11311-一、2",
+              "hses-math-11311-二、15",
+              "hses-math-11311-三、3",
+              "hses-math-11311-四、1",
+              "hses-math-11311-四、4"
+            ],
+            "application": [
+              "hses-math-11311-五、4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11311-unit-1",
+        "title": "比與數量關係",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11311-concept-1",
+            "title": "比與數量關係",
+            "goal": "辨識與應用原卷比與數量關係的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11311-三、1",
+              "hses-math-11311-五、3",
+              "hses-math-11311-五、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11311-unit-2",
+        "title": "因數與倍數",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11311-concept-2",
+            "title": "因數與倍數",
+            "goal": "辨識與應用原卷因數與倍數的數量條件。",
+            "basic": [
+              "hses-math-11311-四、2",
+              "hses-math-11311-四、3"
+            ],
+            "application": [
+              "hses-math-11311-五、1",
+              "hses-math-11311-五、2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-extra-11412",
+    "subject": "數學",
+    "edition": "版本未標示・和順114六上期末考",
+    "year": 114,
+    "period": "六上期末考",
+    "sourceId": "hses-math-11412-paper",
+    "range": "已核驗原卷主題；非完整教材目次",
+    "scopeNote": "基本／應用是本站分類；保留來源原題與填答形式，不生成題幹、答案、選項或解析。",
+    "missing": [
+      "教材版本、完整目次與現行進度未核對",
+      "依賴圖形、引用內容與疑義題未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-math-extra-11412-unit-0",
+        "title": "比與數量關係",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11412-concept-0",
+            "title": "比與數量關係",
+            "goal": "辨識與應用原卷比與數量關係的數量條件。",
+            "basic": [
+              "hses-math-11412-一、1",
+              "hses-math-11412-三、4"
+            ],
+            "application": [
+              "hses-math-11412-三、3",
+              "hses-math-11412-五、3",
+              "hses-math-11412-五、4",
+              "hses-math-11412-五、7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11412-unit-1",
+        "title": "圓與扇形",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11412-concept-1",
+            "title": "圓與扇形",
+            "goal": "辨識與應用原卷圓與扇形的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11412-一、2",
+              "hses-math-11412-一、5",
+              "hses-math-11412-五、2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11412-unit-2",
+        "title": "放大縮小與比例尺",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11412-concept-2",
+            "title": "放大縮小與比例尺",
+            "goal": "辨識與應用原卷放大縮小與比例尺的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11412-一、3",
+              "hses-math-11412-一、4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11412-unit-3",
+        "title": "倍數與年齡",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11412-concept-3",
+            "title": "倍數與年齡",
+            "goal": "辨識與應用原卷倍數與年齡的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11412-三、1",
+              "hses-math-11412-五、1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11412-unit-4",
+        "title": "百分率與買賣",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11412-concept-4",
+            "title": "百分率與買賣",
+            "goal": "辨識與應用原卷百分率與買賣的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11412-五、6"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-extra-11421",
+    "subject": "數學",
+    "edition": "版本未標示・和順114六下第一次段考",
+    "year": 114,
+    "period": "六下第一次段考",
+    "sourceId": "hses-math-11421-paper",
+    "range": "已核驗原卷主題；非完整教材目次",
+    "scopeNote": "基本／應用是本站分類；保留來源原題與填答形式，不生成題幹、答案、選項或解析。",
+    "missing": [
+      "教材版本、完整目次與現行進度未核對",
+      "依賴圖形、引用內容與疑義題未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-math-extra-11421-unit-0",
+        "title": "圓與扇形",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11421-concept-0",
+            "title": "圓與扇形",
+            "goal": "辨識與應用原卷圓與扇形的數量條件。",
+            "basic": [
+              "hses-math-11421-一、3",
+              "hses-math-11421-一、8"
+            ],
+            "application": [
+              "hses-math-11421-一、1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11421-unit-1",
+        "title": "速率與單位換算",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11421-concept-1",
+            "title": "速率與單位換算",
+            "goal": "辨識與應用原卷速率與單位換算的數量條件。",
+            "basic": [
+              "hses-math-11421-一、5",
+              "hses-math-11421-一、7"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11421-unit-2",
+        "title": "分數與小數運算",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11421-concept-2",
+            "title": "分數與小數運算",
+            "goal": "辨識與應用原卷分數與小數運算的數量條件。",
+            "basic": [
+              "hses-math-11421-二、1",
+              "hses-math-11421-二、2",
+              "hses-math-11421-三、(1)",
+              "hses-math-11421-三、(2)",
+              "hses-math-11421-三、(3)",
+              "hses-math-11421-三、(4)"
+            ],
+            "application": [
+              "hses-math-11421-六、(一)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11421-unit-3",
+        "title": "速率與追趕相遇",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11421-concept-3",
+            "title": "速率與追趕相遇",
+            "goal": "辨識與應用原卷速率與追趕相遇的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11421-六、(三)",
+              "hses-math-11421-六、(四)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-extra-11422",
+    "subject": "數學",
+    "edition": "版本未標示・和順114六下期末考",
+    "year": 114,
+    "period": "六下期末考",
+    "sourceId": "hses-math-11422-paper",
+    "range": "已核驗原卷主題；非完整教材目次",
+    "scopeNote": "基本／應用是本站分類；保留來源原題與填答形式，不生成題幹、答案、選項或解析。",
+    "missing": [
+      "教材版本、完整目次與現行進度未核對",
+      "依賴圖形、引用內容與疑義題未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-math-extra-11422-unit-0",
+        "title": "平均與分攤",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11422-concept-0",
+            "title": "平均與分攤",
+            "goal": "辨識與應用原卷平均與分攤的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11422-一、1",
+              "hses-math-11422-一、3",
+              "hses-math-11422-二、4",
+              "hses-math-11422-五、4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11422-unit-1",
+        "title": "柱體的體積與表面積",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11422-concept-1",
+            "title": "柱體的體積與表面積",
+            "goal": "辨識與應用原卷柱體的體積與表面積的數量條件。",
+            "basic": [
+              "hses-math-11422-一、2"
+            ],
+            "application": [
+              "hses-math-11422-一、8",
+              "hses-math-11422-五、1",
+              "hses-math-11422-五、3",
+              "hses-math-11422-五、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11422-unit-2",
+        "title": "速率與追趕相遇",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11422-concept-2",
+            "title": "速率與追趕相遇",
+            "goal": "辨識與應用原卷速率與追趕相遇的數量條件。",
+            "basic": [
+              "hses-math-11422-二、2"
+            ],
+            "application": [
+              "hses-math-11422-一、4",
+              "hses-math-11422-一、5",
+              "hses-math-11422-五、2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11422-unit-3",
+        "title": "倍數與年齡",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11422-concept-3",
+            "title": "倍數與年齡",
+            "goal": "辨識與應用原卷倍數與年齡的數量條件。",
+            "basic": [
+              "hses-math-11422-一、6",
+              "hses-math-11422-二、3"
+            ],
+            "application": [
+              "hses-math-11422-一、7",
+              "hses-math-11422-五、6"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-extra-11211",
+    "subject": "數學",
+    "edition": "版本未標示・和順112六上第一次段考",
+    "year": 112,
+    "period": "六上第一次段考",
+    "sourceId": "hses-math-11211-paper",
+    "range": "已核驗原卷主題；非完整教材目次",
+    "scopeNote": "基本／應用是本站分類；保留來源原題與填答形式，不生成題幹、答案、選項或解析。",
+    "missing": [
+      "教材版本、完整目次與現行進度未核對",
+      "依賴圖形、引用內容與疑義題未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-math-extra-11211-unit-0",
+        "title": "分數與小數運算",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11211-concept-0",
+            "title": "分數與小數運算",
+            "goal": "辨識與應用原卷分數與小數運算的數量條件。",
+            "basic": [
+              "hses-math-11211-一、(1)",
+              "hses-math-11211-一、(2)",
+              "hses-math-11211-一、(3)",
+              "hses-math-11211-一、(4)",
+              "hses-math-11211-三、(1)",
+              "hses-math-11211-三、(2)",
+              "hses-math-11211-三、(3)",
+              "hses-math-11211-三、(4)",
+              "hses-math-11211-三、(5)",
+              "hses-math-11211-三、(6)"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11211-unit-1",
+        "title": "因數與倍數",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11211-concept-1",
+            "title": "因數與倍數",
+            "goal": "辨識與應用原卷因數與倍數的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11211-五、1",
+              "hses-math-11211-五、2",
+              "hses-math-11211-六、1",
+              "hses-math-11211-六、2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-extra-11212",
+    "subject": "數學",
+    "edition": "版本未標示・和順112六上期末考",
+    "year": 112,
+    "period": "六上期末考",
+    "sourceId": "hses-math-11212-paper",
+    "range": "已核驗原卷主題；非完整教材目次",
+    "scopeNote": "基本／應用是本站分類；保留來源原題與填答形式，不生成題幹、答案、選項或解析。",
+    "missing": [
+      "教材版本、完整目次與現行進度未核對",
+      "依賴圖形、引用內容與疑義題未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-math-extra-11212-unit-0",
+        "title": "比與數量關係",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11212-concept-0",
+            "title": "比與數量關係",
+            "goal": "辨識與應用原卷比與數量關係的數量條件。",
+            "basic": [
+              "hses-math-11212-一、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11212-unit-1",
+        "title": "未知數與等式",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11212-concept-1",
+            "title": "未知數與等式",
+            "goal": "辨識與應用原卷未知數與等式的數量條件。",
+            "basic": [
+              "hses-math-11212-一、2",
+              "hses-math-11212-三、(1)",
+              "hses-math-11212-三、(2)",
+              "hses-math-11212-三、(3)",
+              "hses-math-11212-三、(4)"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11212-unit-2",
+        "title": "速率與單位換算",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11212-concept-2",
+            "title": "速率與單位換算",
+            "goal": "辨識與應用原卷速率與單位換算的數量條件。",
+            "basic": [
+              "hses-math-11212-一、3"
+            ],
+            "application": [
+              "hses-math-11212-五、1",
+              "hses-math-11212-五、6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11212-unit-3",
+        "title": "圓與扇形",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11212-concept-3",
+            "title": "圓與扇形",
+            "goal": "辨識與應用原卷圓與扇形的數量條件。",
+            "basic": [
+              "hses-math-11212-一、5"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-extra-11221",
+    "subject": "數學",
+    "edition": "版本未標示・和順112六下第一次段考",
+    "year": 112,
+    "period": "六下第一次段考",
+    "sourceId": "hses-math-11221-paper",
+    "range": "已核驗原卷主題；非完整教材目次",
+    "scopeNote": "基本／應用是本站分類；保留來源原題與填答形式，不生成題幹、答案、選項或解析。",
+    "missing": [
+      "教材版本、完整目次與現行進度未核對",
+      "依賴圖形、引用內容與疑義題未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-math-extra-11221-unit-0",
+        "title": "規律與間隔",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11221-concept-0",
+            "title": "規律與間隔",
+            "goal": "辨識與應用原卷規律與間隔的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11221-一、1",
+              "hses-math-11221-二、4",
+              "hses-math-11221-二、8"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11221-unit-1",
+        "title": "放大縮小與比例尺",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11221-concept-1",
+            "title": "放大縮小與比例尺",
+            "goal": "辨識與應用原卷放大縮小與比例尺的數量條件。",
+            "basic": [
+              "hses-math-11221-一、5",
+              "hses-math-11221-二、2"
+            ],
+            "application": [
+              "hses-math-11221-一、2",
+              "hses-math-11221-二、6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11221-unit-2",
+        "title": "柱體的體積與表面積",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11221-concept-2",
+            "title": "柱體的體積與表面積",
+            "goal": "辨識與應用原卷柱體的體積與表面積的數量條件。",
+            "basic": [
+              "hses-math-11221-二、5"
+            ],
+            "application": [
+              "hses-math-11221-一、3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11221-unit-3",
+        "title": "比與數量關係",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11221-concept-3",
+            "title": "比與數量關係",
+            "goal": "辨識與應用原卷比與數量關係的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11221-一、4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-extra-11221-unit-4",
+        "title": "百分率與買賣",
+        "concepts": [
+          {
+            "id": "hses-math-extra-11221-concept-4",
+            "title": "百分率與買賣",
+            "goal": "辨識與應用原卷百分率與買賣的數量條件。",
+            "basic": [],
+            "application": [
+              "hses-math-11221-二、7"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11311-more",
+    "subject": "國語",
+    "edition": "版本未標示・和順113上期中",
+    "year": 113,
+    "period": "六上第一次段考",
+    "sourceId": "hses-chinese-11311-paper",
+    "range": "本批已核驗的原卷獨立語文題；未核對完整教材課次",
+    "scopeNote": "觀念與基本／應用題為本站整理分類，非原校難度標記；不代表任何現行教材版本的完整範圍。",
+    "missing": [
+      "教材版本及完整課次目次未建立",
+      "課文理解、第三方閱讀、寫作及未核驗題目尚未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11311-unit-0",
+        "title": "字形辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11311-concept-0",
+            "title": "字形辨識",
+            "goal": "依詞義選擇同音或形近字。",
+            "basic": [
+              "hses-chinese-11311-二"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11312",
+    "subject": "國語",
+    "edition": "版本未標示・和順113上期末",
+    "year": 113,
+    "period": "六上期末考",
+    "sourceId": "hses-chinese-11312-paper",
+    "range": "本批已核驗的原卷獨立語文題；未核對完整教材課次",
+    "scopeNote": "觀念與基本／應用題為本站整理分類，非原校難度標記；不代表任何現行教材版本的完整範圍。",
+    "missing": [
+      "教材版本及完整課次目次未建立",
+      "課文理解、第三方閱讀、寫作及未核驗題目尚未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11312-unit-0",
+        "title": "字音辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11312-concept-0",
+            "title": "字音辨識",
+            "goal": "分辨語境中的多音字與形聲字讀音。",
+            "basic": [
+              "hses-chinese-11312-一、1",
+              "hses-chinese-11312-一、2",
+              "hses-chinese-11312-一、3",
+              "hses-chinese-11312-一、7",
+              "hses-chinese-11312-一、8",
+              "hses-chinese-11312-一、9",
+              "hses-chinese-11312-一、12",
+              "hses-chinese-11312-一、14",
+              "hses-chinese-11312-一、16",
+              "hses-chinese-11312-一、18",
+              "hses-chinese-11312-一、20",
+              "hses-chinese-11312-四、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11312-unit-1",
+        "title": "字形辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11312-concept-1",
+            "title": "字形辨識",
+            "goal": "依詞義選擇同音或形近字。",
+            "basic": [
+              "hses-chinese-11312-一、4",
+              "hses-chinese-11312-一、5",
+              "hses-chinese-11312-一、6",
+              "hses-chinese-11312-一、10",
+              "hses-chinese-11312-一、11",
+              "hses-chinese-11312-一、13",
+              "hses-chinese-11312-一、15",
+              "hses-chinese-11312-一、19",
+              "hses-chinese-11312-二、3",
+              "hses-chinese-11312-二、4",
+              "hses-chinese-11312-二、5",
+              "hses-chinese-11312-二、6",
+              "hses-chinese-11312-二、7",
+              "hses-chinese-11312-二、8",
+              "hses-chinese-11312-二、9",
+              "hses-chinese-11312-二、10",
+              "hses-chinese-11312-二、11",
+              "hses-chinese-11312-二、12",
+              "hses-chinese-11312-二、13"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11312-unit-2",
+        "title": "短語與句型",
+        "concepts": [
+          {
+            "id": "hses-chinese-11312-concept-2",
+            "title": "短語與句型",
+            "goal": "比較短語結構並辨識關聯詞所形成的句型。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11312-四、2",
+              "hses-chinese-11312-四、3",
+              "hses-chinese-11312-四、4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11312-unit-3",
+        "title": "詞義與語境",
+        "concepts": [
+          {
+            "id": "hses-chinese-11312-concept-3",
+            "title": "詞義與語境",
+            "goal": "依句意辨認字詞含義、近義關係及替換後的語意。",
+            "basic": [
+              "hses-chinese-11312-四、8",
+              "hses-chinese-11312-四、9",
+              "hses-chinese-11312-四、10"
+            ],
+            "application": [
+              "hses-chinese-11312-四、6",
+              "hses-chinese-11312-四、7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11312-unit-4",
+        "title": "修辭辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11312-concept-4",
+            "title": "修辭辨識",
+            "goal": "依結構辨認對偶與頂真。",
+            "basic": [
+              "hses-chinese-11312-四、11",
+              "hses-chinese-11312-四、12"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11422",
+    "subject": "國語",
+    "edition": "版本未標示・和順114下期末",
+    "year": 114,
+    "period": "六下期末考",
+    "sourceId": "hses-chinese-11422-paper",
+    "range": "本批已核驗的原卷獨立語文題；未核對完整教材課次",
+    "scopeNote": "觀念與基本／應用題為本站整理分類，非原校難度標記；不代表任何現行教材版本的完整範圍。",
+    "missing": [
+      "教材版本及完整課次目次未建立",
+      "課文理解、第三方閱讀、寫作及未核驗題目尚未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11422-unit-0",
+        "title": "字形辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11422-concept-0",
+            "title": "字形辨識",
+            "goal": "依詞義選擇同音或形近字。",
+            "basic": [
+              "hses-chinese-11422-一",
+              "hses-chinese-11422-二、1",
+              "hses-chinese-11422-二、2",
+              "hses-chinese-11422-二、3",
+              "hses-chinese-11422-二、4",
+              "hses-chinese-11422-二、6",
+              "hses-chinese-11422-四、7"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11422-unit-1",
+        "title": "短語與句型",
+        "concepts": [
+          {
+            "id": "hses-chinese-11422-concept-1",
+            "title": "短語與句型",
+            "goal": "比較短語結構並辨識關聯詞所形成的句型。",
+            "basic": [
+              "hses-chinese-11422-四、11"
+            ],
+            "application": [
+              "hses-chinese-11422-四、1",
+              "hses-chinese-11422-四、2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11422-unit-2",
+        "title": "詞義與語境",
+        "concepts": [
+          {
+            "id": "hses-chinese-11422-concept-2",
+            "title": "詞義與語境",
+            "goal": "依句意辨認字詞含義、近義關係及替換後的語意。",
+            "basic": [
+              "hses-chinese-11422-四、4",
+              "hses-chinese-11422-四、5",
+              "hses-chinese-11422-四、6",
+              "hses-chinese-11422-四、9",
+              "hses-chinese-11422-四、12"
+            ],
+            "application": [
+              "hses-chinese-11422-四、10"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11321",
+    "subject": "國語",
+    "edition": "版本未標示・和順113下期中",
+    "year": 113,
+    "period": "六下第一次段考",
+    "sourceId": "hses-chinese-11321-paper",
+    "range": "本批已核驗的原卷獨立語文題；未核對完整教材課次",
+    "scopeNote": "觀念與基本／應用題為本站整理分類，非原校難度標記；不代表任何現行教材版本的完整範圍。",
+    "missing": [
+      "教材版本及完整課次目次未建立",
+      "課文理解、第三方閱讀、寫作及未核驗題目尚未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11321-unit-0",
+        "title": "詞義與語境",
+        "concepts": [
+          {
+            "id": "hses-chinese-11321-concept-0",
+            "title": "詞義與語境",
+            "goal": "依句意辨認字詞含義、近義關係及替換後的語意。",
+            "basic": [
+              "hses-chinese-11321-三、9",
+              "hses-chinese-11321-三、1",
+              "hses-chinese-11321-三、2",
+              "hses-chinese-11321-三、3"
+            ],
+            "application": [
+              "hses-chinese-11321-三、12"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11321-unit-1",
+        "title": "字音辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11321-concept-1",
+            "title": "字音辨識",
+            "goal": "分辨語境中的多音字與形聲字讀音。",
+            "basic": [
+              "hses-chinese-11321-一、1",
+              "hses-chinese-11321-一、6",
+              "hses-chinese-11321-一、13",
+              "hses-chinese-11321-一、17",
+              "hses-chinese-11321-一、18"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11321-unit-2",
+        "title": "字形辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11321-concept-2",
+            "title": "字形辨識",
+            "goal": "依詞義選擇同音或形近字。",
+            "basic": [
+              "hses-chinese-11321-一、2",
+              "hses-chinese-11321-一、3",
+              "hses-chinese-11321-一、4",
+              "hses-chinese-11321-一、5",
+              "hses-chinese-11321-一、7",
+              "hses-chinese-11321-一、9",
+              "hses-chinese-11321-一、10",
+              "hses-chinese-11321-一、11",
+              "hses-chinese-11321-一、12",
+              "hses-chinese-11321-一、14",
+              "hses-chinese-11321-一、16",
+              "hses-chinese-11321-二、1",
+              "hses-chinese-11321-二、3",
+              "hses-chinese-11321-二、4",
+              "hses-chinese-11321-二、6",
+              "hses-chinese-11321-三、6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11321-unit-3",
+        "title": "成語運用",
+        "concepts": [
+          {
+            "id": "hses-chinese-11321-concept-3",
+            "title": "成語運用",
+            "goal": "依完整情境選用原卷所列的成語。",
+            "basic": [
+              "hses-chinese-11321-三、7"
+            ],
+            "application": [
+              "hses-chinese-11321-三、14",
+              "hses-chinese-11321-三、15",
+              "hses-chinese-11321-三、16"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11321-unit-4",
+        "title": "文章表達",
+        "concepts": [
+          {
+            "id": "hses-chinese-11321-concept-4",
+            "title": "文章表達",
+            "goal": "辨識詩文的語言表達特色。",
+            "basic": [
+              "hses-chinese-11321-三、10",
+              "hses-chinese-11321-三、11",
+              "hses-chinese-11321-三、13"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11321-unit-5",
+        "title": "短語與句型",
+        "concepts": [
+          {
+            "id": "hses-chinese-11321-concept-5",
+            "title": "短語與句型",
+            "goal": "比較短語結構並辨識關聯詞所形成的句型。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11321-三、17"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11322",
+    "subject": "國語",
+    "edition": "版本未標示・和順113下期末",
+    "year": 113,
+    "period": "六下期末考",
+    "sourceId": "hses-chinese-11322-paper",
+    "range": "本批已核驗的原卷獨立語文題；未核對完整教材課次",
+    "scopeNote": "觀念與基本／應用題為本站整理分類，非原校難度標記；不代表任何現行教材版本的完整範圍。",
+    "missing": [
+      "教材版本及完整課次目次未建立",
+      "課文理解、第三方閱讀、寫作及未核驗題目尚未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11322-unit-0",
+        "title": "詞義與語境",
+        "concepts": [
+          {
+            "id": "hses-chinese-11322-concept-0",
+            "title": "詞義與語境",
+            "goal": "依句意辨認字詞含義、近義關係及替換後的語意。",
+            "basic": [
+              "hses-chinese-11322-四、2",
+              "hses-chinese-11322-四、5",
+              "hses-chinese-11322-四、6",
+              "hses-chinese-11322-四、13",
+              "hses-chinese-11322-四、15",
+              "hses-chinese-11322-四、19"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11322-unit-1",
+        "title": "文章表達",
+        "concepts": [
+          {
+            "id": "hses-chinese-11322-concept-1",
+            "title": "文章表達",
+            "goal": "辨識詩文的語言表達特色。",
+            "basic": [
+              "hses-chinese-11322-四、9"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11322-unit-2",
+        "title": "成語運用",
+        "concepts": [
+          {
+            "id": "hses-chinese-11322-concept-2",
+            "title": "成語運用",
+            "goal": "依完整情境選用原卷所列的成語。",
+            "basic": [
+              "hses-chinese-11322-四、11"
+            ],
+            "application": [
+              "hses-chinese-11322-四、10",
+              "hses-chinese-11322-四、17",
+              "hses-chinese-11322-五、（二）1",
+              "hses-chinese-11322-五、（二）2",
+              "hses-chinese-11322-五、（二）3",
+              "hses-chinese-11322-五、（二）4",
+              "hses-chinese-11322-五、（二）5",
+              "hses-chinese-11322-五、（二）6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11322-unit-3",
+        "title": "修辭辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11322-concept-3",
+            "title": "修辭辨識",
+            "goal": "依結構辨認對偶與頂真。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11322-四、12"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11322-unit-4",
+        "title": "短語與句型",
+        "concepts": [
+          {
+            "id": "hses-chinese-11322-concept-4",
+            "title": "短語與句型",
+            "goal": "比較短語結構並辨識關聯詞所形成的句型。",
+            "basic": [
+              "hses-chinese-11322-四、14"
+            ],
+            "application": [
+              "hses-chinese-11322-四、16",
+              "hses-chinese-11322-四、18"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11411",
+    "subject": "國語",
+    "edition": "版本未標示・和順114上期中",
+    "year": 114,
+    "period": "六上第一次段考",
+    "sourceId": "hses-chinese-11411-paper",
+    "range": "本批已核驗的原卷獨立語文題；未核對完整教材課次",
+    "scopeNote": "觀念與基本／應用題為本站整理分類，非原校難度標記；不代表任何現行教材版本的完整範圍。",
+    "missing": [
+      "教材版本及完整課次目次未建立",
+      "課文理解、第三方閱讀、寫作及未核驗題目尚未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11411-unit-0",
+        "title": "字形辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11411-concept-0",
+            "title": "字形辨識",
+            "goal": "依詞義選擇同音或形近字。",
+            "basic": [
+              "hses-chinese-11411-一、1",
+              "hses-chinese-11411-一、2",
+              "hses-chinese-11411-二、1",
+              "hses-chinese-11411-二、2",
+              "hses-chinese-11411-二、3",
+              "hses-chinese-11411-二、5"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11411-unit-1",
+        "title": "詞義與語境",
+        "concepts": [
+          {
+            "id": "hses-chinese-11411-concept-1",
+            "title": "詞義與語境",
+            "goal": "依句意辨認字詞含義、近義關係及替換後的語意。",
+            "basic": [
+              "hses-chinese-11411-四、5",
+              "hses-chinese-11411-四、9",
+              "hses-chinese-11411-四、10",
+              "hses-chinese-11411-四、11"
+            ],
+            "application": [
+              "hses-chinese-11411-四、1",
+              "hses-chinese-11411-四、12"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11411-unit-2",
+        "title": "字音辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11411-concept-2",
+            "title": "字音辨識",
+            "goal": "分辨語境中的多音字與形聲字讀音。",
+            "basic": [
+              "hses-chinese-11411-四、2",
+              "hses-chinese-11411-四、8"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11411-unit-3",
+        "title": "短語與句型",
+        "concepts": [
+          {
+            "id": "hses-chinese-11411-concept-3",
+            "title": "短語與句型",
+            "goal": "比較短語結構並辨識關聯詞所形成的句型。",
+            "basic": [
+              "hses-chinese-11411-四、6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11411-unit-4",
+        "title": "成語運用",
+        "concepts": [
+          {
+            "id": "hses-chinese-11411-concept-4",
+            "title": "成語運用",
+            "goal": "依完整情境選用原卷所列的成語。",
+            "basic": [
+              "hses-chinese-11411-四、13"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11411-unit-5",
+        "title": "修辭辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11411-concept-5",
+            "title": "修辭辨識",
+            "goal": "依結構辨認對偶與頂真。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11411-四、17",
+              "hses-chinese-11411-四、18"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11412",
+    "subject": "國語",
+    "edition": "版本未標示・和順114上期末",
+    "year": 114,
+    "period": "六上期末考",
+    "sourceId": "hses-chinese-11412-paper",
+    "range": "本批已核驗的原卷獨立語文題；未核對完整教材課次",
+    "scopeNote": "觀念與基本／應用題為本站整理分類，非原校難度標記；不代表任何現行教材版本的完整範圍。",
+    "missing": [
+      "教材版本及完整課次目次未建立",
+      "課文理解、第三方閱讀、寫作及未核驗題目尚未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11412-unit-0",
+        "title": "字形辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11412-concept-0",
+            "title": "字形辨識",
+            "goal": "依詞義選擇同音或形近字。",
+            "basic": [
+              "hses-chinese-11412-一、1",
+              "hses-chinese-11412-一、2",
+              "hses-chinese-11412-二、1",
+              "hses-chinese-11412-二、2",
+              "hses-chinese-11412-二、3",
+              "hses-chinese-11412-二、4",
+              "hses-chinese-11412-二、5",
+              "hses-chinese-11412-二、6",
+              "hses-chinese-11412-二、7",
+              "hses-chinese-11412-六、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11412-unit-1",
+        "title": "成語運用",
+        "concepts": [
+          {
+            "id": "hses-chinese-11412-concept-1",
+            "title": "成語運用",
+            "goal": "依完整情境選用原卷所列的成語。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11412-四、1",
+              "hses-chinese-11412-四、2",
+              "hses-chinese-11412-四、3",
+              "hses-chinese-11412-四、4",
+              "hses-chinese-11412-四、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11412-unit-2",
+        "title": "詞義與語境",
+        "concepts": [
+          {
+            "id": "hses-chinese-11412-concept-2",
+            "title": "詞義與語境",
+            "goal": "依句意辨認字詞含義、近義關係及替換後的語意。",
+            "basic": [
+              "hses-chinese-11412-六、1",
+              "hses-chinese-11412-六、10",
+              "hses-chinese-11412-六、14"
+            ],
+            "application": [
+              "hses-chinese-11412-六、5",
+              "hses-chinese-11412-六、7"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11412-unit-3",
+        "title": "字音辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11412-concept-3",
+            "title": "字音辨識",
+            "goal": "分辨語境中的多音字與形聲字讀音。",
+            "basic": [
+              "hses-chinese-11412-六、2",
+              "hses-chinese-11412-六、15"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11412-unit-4",
+        "title": "文章表達",
+        "concepts": [
+          {
+            "id": "hses-chinese-11412-concept-4",
+            "title": "文章表達",
+            "goal": "辨識詩文的語言表達特色。",
+            "basic": [
+              "hses-chinese-11412-六、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11412-unit-5",
+        "title": "短語與句型",
+        "concepts": [
+          {
+            "id": "hses-chinese-11412-concept-5",
+            "title": "短語與句型",
+            "goal": "比較短語結構並辨識關聯詞所形成的句型。",
+            "basic": [
+              "hses-chinese-11412-六、6"
+            ],
+            "application": [
+              "hses-chinese-11412-六、13"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11412-unit-6",
+        "title": "詞性與語境",
+        "concepts": [
+          {
+            "id": "hses-chinese-11412-concept-6",
+            "title": "詞性與語境",
+            "goal": "依語境辨認語詞所表示的動作。",
+            "basic": [
+              "hses-chinese-11412-六、11"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-chinese-11421",
+    "subject": "國語",
+    "edition": "版本未標示・和順114下期中",
+    "year": 114,
+    "period": "六下第一次段考",
+    "sourceId": "hses-chinese-11421-paper",
+    "range": "本批已核驗的原卷獨立語文題；未核對完整教材課次",
+    "scopeNote": "觀念與基本／應用題為本站整理分類，非原校難度標記；不代表任何現行教材版本的完整範圍。",
+    "missing": [
+      "教材版本及完整課次目次未建立",
+      "課文理解、第三方閱讀、寫作及未核驗題目尚未涵蓋"
+    ],
+    "units": [
+      {
+        "id": "hses-chinese-11421-unit-0",
+        "title": "字形辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11421-concept-0",
+            "title": "字形辨識",
+            "goal": "依詞義選擇同音或形近字。",
+            "basic": [
+              "hses-chinese-11421-一、1",
+              "hses-chinese-11421-一、2",
+              "hses-chinese-11421-一、3",
+              "hses-chinese-11421-一、4",
+              "hses-chinese-11421-一、6",
+              "hses-chinese-11421-一、8",
+              "hses-chinese-11421-二、1",
+              "hses-chinese-11421-二、2",
+              "hses-chinese-11421-二、3",
+              "hses-chinese-11421-二、4",
+              "hses-chinese-11421-二、5",
+              "hses-chinese-11421-二、6",
+              "hses-chinese-11421-五、12"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11421-unit-1",
+        "title": "字音辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11421-concept-1",
+            "title": "字音辨識",
+            "goal": "分辨語境中的多音字與形聲字讀音。",
+            "basic": [
+              "hses-chinese-11421-一、5",
+              "hses-chinese-11421-一、7",
+              "hses-chinese-11421-一、9",
+              "hses-chinese-11421-一、10",
+              "hses-chinese-11421-五、13"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11421-unit-2",
+        "title": "成語運用",
+        "concepts": [
+          {
+            "id": "hses-chinese-11421-concept-2",
+            "title": "成語運用",
+            "goal": "依完整情境選用原卷所列的成語。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11421-四、1",
+              "hses-chinese-11421-四、2",
+              "hses-chinese-11421-四、3",
+              "hses-chinese-11421-四、4",
+              "hses-chinese-11421-四、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11421-unit-3",
+        "title": "短語與句型",
+        "concepts": [
+          {
+            "id": "hses-chinese-11421-concept-3",
+            "title": "短語與句型",
+            "goal": "比較短語結構並辨識關聯詞所形成的句型。",
+            "basic": [],
+            "application": [
+              "hses-chinese-11421-五、11"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-chinese-11421-unit-4",
+        "title": "修辭辨識",
+        "concepts": [
+          {
+            "id": "hses-chinese-11421-concept-4",
+            "title": "修辭辨識",
+            "goal": "依結構辨認對偶與頂真。",
+            "basic": [
+              "hses-chinese-11421-五、14"
+            ],
+            "application": [
+              "hses-chinese-11421-五、15"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11321",
+    "subject": "英語",
+    "edition": "版本未標示・和順113期中",
+    "year": 113,
+    "period": "六下第一次段考",
+    "sourceId": "hses-english-11321-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11321-unit-0",
+        "title": "be動詞過去式",
+        "concepts": [
+          {
+            "id": "hses-english-11321-concept-0",
+            "title": "be動詞過去式",
+            "goal": "依主詞與過去時間選用was或were。",
+            "basic": [
+              "hses-english-11321-六、32",
+              "hses-english-11321-六、35",
+              "hses-english-11321-六、37"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11321-unit-1",
+        "title": "過去式與問答",
+        "concepts": [
+          {
+            "id": "hses-english-11321-concept-1",
+            "title": "過去式與問答",
+            "basic": [
+              "hses-english-11321-六、33",
+              "hses-english-11321-六、34",
+              "hses-english-11321-七、38",
+              "hses-english-11321-七、40",
+              "hses-english-11321-七、41"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11321-unit-2",
+        "title": "動詞過去式",
+        "concepts": [
+          {
+            "id": "hses-english-11321-concept-2",
+            "title": "動詞過去式",
+            "goal": "依中文與過去時間填寫動詞。",
+            "basic": [
+              "hses-english-11321-六、36"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11321-unit-3",
+        "title": "日常活動問答",
+        "concepts": [
+          {
+            "id": "hses-english-11321-concept-3",
+            "title": "日常活動問答",
+            "goal": "依日常活動問句選出適當答句。",
+            "basic": [
+              "hses-english-11321-七、39"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-10921",
+    "subject": "英語",
+    "edition": "版本未標示・和順109期中",
+    "year": 109,
+    "period": "六下第一次段考",
+    "sourceId": "hses-english-10921-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-10921-unit-0",
+        "title": "be動詞過去式",
+        "concepts": [
+          {
+            "id": "hses-english-10921-concept-0",
+            "title": "be動詞過去式",
+            "goal": "依主詞與過去時間選用was或were。",
+            "basic": [
+              "hses-english-10921-六、2",
+              "hses-english-10921-六、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-10921-unit-1",
+        "title": "過去式與問答",
+        "concepts": [
+          {
+            "id": "hses-english-10921-concept-1",
+            "title": "過去式與問答",
+            "basic": [
+              "hses-english-10921-六、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-10921-unit-2",
+        "title": "助動詞與動詞形式",
+        "concepts": [
+          {
+            "id": "hses-english-10921-concept-2",
+            "title": "助動詞與動詞形式",
+            "goal": "依助動詞選用原形動詞。",
+            "basic": [
+              "hses-english-10921-六、5"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-10921-unit-3",
+        "title": "動詞過去式",
+        "concepts": [
+          {
+            "id": "hses-english-10921-concept-3",
+            "title": "動詞過去式",
+            "goal": "依中文與過去時間填寫動詞。",
+            "basic": [
+              "hses-english-10921-六、6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-10921-unit-4",
+        "title": "地點與活動詞彙",
+        "concepts": [
+          {
+            "id": "hses-english-10921-concept-4",
+            "title": "地點與活動詞彙",
+            "goal": "依活動線索辨識場所。",
+            "basic": [
+              "hses-english-10921-七、1",
+              "hses-english-10921-七、2",
+              "hses-english-10921-七、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-10921-unit-5",
+        "title": "be動詞過去式句型",
+        "concepts": [
+          {
+            "id": "hses-english-10921-concept-5",
+            "title": "be動詞過去式句型",
+            "goal": "依提示字排列過去地點敘述句。",
+            "basic": [
+              "hses-english-10921-五、3"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-10912",
+    "subject": "英語",
+    "edition": "版本未標示・和順109期末",
+    "year": 109,
+    "period": "六上期末考",
+    "sourceId": "hses-english-10912-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-10912-unit-0",
+        "title": "主詞與代名詞",
+        "concepts": [
+          {
+            "id": "hses-english-10912-concept-0",
+            "title": "主詞與代名詞",
+            "goal": "依主詞選用動詞與代名詞。",
+            "basic": [
+              "hses-english-10912-八、1",
+              "hses-english-10912-八、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-10912-unit-1",
+        "title": "所有格",
+        "concepts": [
+          {
+            "id": "hses-english-10912-concept-1",
+            "title": "所有格",
+            "goal": "依主詞與語境選用所有格。",
+            "basic": [
+              "hses-english-10912-八、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-10912-unit-2",
+        "title": "助動詞與動詞形式",
+        "concepts": [
+          {
+            "id": "hses-english-10912-concept-2",
+            "title": "助動詞與動詞形式",
+            "goal": "依助動詞選用原形動詞。",
+            "basic": [
+              "hses-english-10912-八、4"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11212",
+    "subject": "英語",
+    "edition": "版本未標示・和順112期末",
+    "year": 112,
+    "period": "六上期末考",
+    "sourceId": "hses-english-11212-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11212-unit-0",
+        "title": "日常動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11212-concept-0",
+            "title": "日常動詞與主詞一致",
+            "goal": "依主詞選用動詞及助動詞的正確形式。",
+            "basic": [
+              "hses-english-11212-I、1",
+              "hses-english-11212-I、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11212-unit-1",
+        "title": "助動詞與動詞形式",
+        "concepts": [
+          {
+            "id": "hses-english-11212-concept-1",
+            "title": "助動詞與動詞形式",
+            "goal": "依助動詞選用原形動詞。",
+            "basic": [
+              "hses-english-11212-I、3",
+              "hses-english-11212-I、5"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11212-unit-2",
+        "title": "be動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11212-concept-2",
+            "title": "be動詞與主詞一致",
+            "goal": "依主詞選用正確be動詞。",
+            "basic": [
+              "hses-english-11212-I、4"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11021",
+    "subject": "英語",
+    "edition": "版本未標示・和順110期中",
+    "year": 110,
+    "period": "六下第一次段考",
+    "sourceId": "hses-english-11021-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11021-unit-0",
+        "title": "地點與活動詞彙",
+        "concepts": [
+          {
+            "id": "hses-english-11021-concept-0",
+            "title": "地點與活動詞彙",
+            "goal": "依活動線索辨識場所。",
+            "basic": [
+              "hses-english-11021-八、1",
+              "hses-english-11021-八、2",
+              "hses-english-11021-八、3",
+              "hses-english-11021-八、5"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11021-unit-1",
+        "title": "過去活動詞彙",
+        "concepts": [
+          {
+            "id": "hses-english-11021-concept-1",
+            "title": "過去活動詞彙",
+            "goal": "依線索辨識過去活動。",
+            "basic": [
+              "hses-english-11021-八、4",
+              "hses-english-11021-八、6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11021-unit-2",
+        "title": "過去式與問答",
+        "concepts": [
+          {
+            "id": "hses-english-11021-concept-2",
+            "title": "過去式與問答",
+            "basic": [
+              "hses-english-11021-九、2",
+              "hses-english-11021-十、1",
+              "hses-english-11021-十、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11021-unit-3",
+        "title": "be動詞過去式",
+        "concepts": [
+          {
+            "id": "hses-english-11021-concept-3",
+            "title": "be動詞過去式",
+            "goal": "依主詞與過去時間選用was或were。",
+            "basic": [
+              "hses-english-11021-十、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11021-unit-4",
+        "title": "動詞過去式",
+        "concepts": [
+          {
+            "id": "hses-english-11021-concept-4",
+            "title": "動詞過去式",
+            "goal": "依中文與過去時間填寫動詞。",
+            "basic": [
+              "hses-english-11021-十、3"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11022",
+    "subject": "英語",
+    "edition": "版本未標示・和順110期末",
+    "year": 110,
+    "period": "六下期末考",
+    "sourceId": "hses-english-11022-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11022-unit-0",
+        "title": "喜好季節句型",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-0",
+            "title": "喜好季節句型",
+            "goal": "依提示字排列喜好季節句子。",
+            "basic": [
+              "hses-english-11022-八、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-1",
+        "title": "句子結構與價格表達",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-1",
+            "title": "句子結構與價格表達",
+            "goal": "依原題字詞排列完整的價格敘述句。",
+            "basic": [
+              "hses-english-11022-八、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-2",
+        "title": "喜好季節問句",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-2",
+            "title": "喜好季節問句",
+            "goal": "辨識喜好季節的問句。",
+            "basic": [
+              "hses-english-11022-九、1",
+              "hses-english-11022-十一、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-3",
+        "title": "單複數與價格問答",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-3",
+            "title": "單複數與價格問答",
+            "goal": "在價格問答中依名詞單複數選用代名詞及名詞形式。",
+            "basic": [
+              "hses-english-11022-九、2",
+              "hses-english-11022-九、4",
+              "hses-english-11022-十一、2",
+              "hses-english-11022-十一、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-4",
+        "title": "be動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-4",
+            "title": "be動詞與主詞一致",
+            "goal": "依主詞選用正確be動詞。",
+            "basic": [
+              "hses-english-11022-九、3",
+              "hses-english-11022-九、5"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-5",
+        "title": "季節介詞",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-5",
+            "title": "季節介詞",
+            "goal": "辨識季節前的介詞。",
+            "basic": [
+              "hses-english-11022-九、6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-6",
+        "title": "季節與天氣詞彙",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-6",
+            "title": "季節與天氣詞彙",
+            "goal": "辨識季節與天氣詞彙。",
+            "basic": [
+              "hses-english-11022-十、1",
+              "hses-english-11022-十、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-7",
+        "title": "衣著與天氣詞彙",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-7",
+            "title": "衣著與天氣詞彙",
+            "goal": "依天氣辨識衣著詞彙。",
+            "basic": [
+              "hses-english-11022-十、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-8",
+        "title": "價格詞彙",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-8",
+            "title": "價格詞彙",
+            "goal": "辨識金額單位詞彙。",
+            "basic": [
+              "hses-english-11022-十、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11022-unit-9",
+        "title": "所有格",
+        "concepts": [
+          {
+            "id": "hses-english-11022-concept-9",
+            "title": "所有格",
+            "goal": "依主詞與語境選用所有格。",
+            "basic": [
+              "hses-english-11022-十一、3"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11012",
+    "subject": "英語",
+    "edition": "版本未標示・和順110期末",
+    "year": 110,
+    "period": "六上期末考",
+    "sourceId": "hses-english-11012-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11012-unit-0",
+        "title": "助動詞與動詞形式",
+        "concepts": [
+          {
+            "id": "hses-english-11012-concept-0",
+            "title": "助動詞與動詞形式",
+            "goal": "依助動詞選用原形動詞。",
+            "basic": [
+              "hses-english-11012-九、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11012-unit-1",
+        "title": "日常動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11012-concept-1",
+            "title": "日常動詞與主詞一致",
+            "goal": "依主詞選用動詞及助動詞的正確形式。",
+            "basic": [
+              "hses-english-11012-九、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11012-unit-2",
+        "title": "活動問句",
+        "concepts": [
+          {
+            "id": "hses-english-11012-concept-2",
+            "title": "活動問句",
+            "goal": "辨識詢問活動的疑問詞。",
+            "basic": [
+              "hses-english-11012-九、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11012-unit-3",
+        "title": "主詞與代名詞",
+        "concepts": [
+          {
+            "id": "hses-english-11012-concept-3",
+            "title": "主詞與代名詞",
+            "goal": "依主詞選用動詞與代名詞。",
+            "basic": [
+              "hses-english-11012-九、4"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11111",
+    "subject": "英語",
+    "edition": "版本未標示・和順111期中",
+    "year": 111,
+    "period": "六上第一次段考",
+    "sourceId": "hses-english-11111-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11111-unit-0",
+        "title": "交通方式句型",
+        "concepts": [
+          {
+            "id": "hses-english-11111-concept-0",
+            "title": "交通方式句型",
+            "goal": "依提示字排列交通方式問答。",
+            "basic": [
+              "hses-english-11111-八、1",
+              "hses-english-11111-八、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11111-unit-1",
+        "title": "來源問句句型",
+        "concepts": [
+          {
+            "id": "hses-english-11111-concept-1",
+            "title": "來源問句句型",
+            "goal": "依提示字排列來源問句。",
+            "basic": [
+              "hses-english-11111-八、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11111-unit-2",
+        "title": "be動詞與地點問答",
+        "concepts": [
+          {
+            "id": "hses-english-11111-concept-2",
+            "title": "be動詞與地點問答",
+            "goal": "辨識國籍來源問句中be動詞與肯否定回答。",
+            "basic": [
+              "hses-english-11111-九、1",
+              "hses-english-11111-九、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11111-unit-3",
+        "title": "交通方式問句",
+        "concepts": [
+          {
+            "id": "hses-english-11111-concept-3",
+            "title": "交通方式問句",
+            "goal": "依主詞選用交通方式問句的助動詞及回答動詞。",
+            "basic": [
+              "hses-english-11111-九、3",
+              "hses-english-11111-九、4",
+              "hses-english-11111-九、6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11111-unit-4",
+        "title": "主詞與代名詞",
+        "concepts": [
+          {
+            "id": "hses-english-11111-concept-4",
+            "title": "主詞與代名詞",
+            "goal": "依主詞選用動詞與代名詞。",
+            "basic": [
+              "hses-english-11111-九、5"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11112",
+    "subject": "英語",
+    "edition": "版本未標示・和順111期末",
+    "year": 111,
+    "period": "六上期末考",
+    "sourceId": "hses-english-11112-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11112-unit-0",
+        "title": "時間介詞與句子判讀",
+        "concepts": [
+          {
+            "id": "hses-english-11112-concept-0",
+            "title": "時間介詞與句子判讀",
+            "goal": "辨識時間介詞的正確用法。",
+            "basic": [
+              "hses-english-11112-F、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11112-unit-1",
+        "title": "句首大寫與句子判讀",
+        "concepts": [
+          {
+            "id": "hses-english-11112-concept-1",
+            "title": "句首大寫與句子判讀",
+            "goal": "辨識句首字母的大小寫。",
+            "basic": [
+              "hses-english-11112-F、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11112-unit-2",
+        "title": "身體不適句子判讀",
+        "concepts": [
+          {
+            "id": "hses-english-11112-concept-2",
+            "title": "身體不適句子判讀",
+            "goal": "辨識身體不適敘述句。",
+            "basic": [
+              "hses-english-11112-F、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11112-unit-3",
+        "title": "助動詞與句子判讀",
+        "concepts": [
+          {
+            "id": "hses-english-11112-concept-3",
+            "title": "助動詞與句子判讀",
+            "goal": "辨識助動詞與主詞的一致性。",
+            "basic": [
+              "hses-english-11112-F、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11112-unit-4",
+        "title": "時間問句",
+        "concepts": [
+          {
+            "id": "hses-english-11112-concept-4",
+            "title": "時間問句",
+            "goal": "辨識時間問句，並配合主詞使用助動詞。",
+            "basic": [
+              "hses-english-11112-G、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11112-unit-5",
+        "title": "日常活動問答",
+        "concepts": [
+          {
+            "id": "hses-english-11112-concept-5",
+            "title": "日常活動問答",
+            "goal": "依日常活動問句選出適當答句。",
+            "basic": [
+              "hses-english-11112-G、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11112-unit-6",
+        "title": "身體不適與回應",
+        "concepts": [
+          {
+            "id": "hses-english-11112-concept-6",
+            "title": "身體不適與回應",
+            "goal": "依身體不適情境選出適當回應。",
+            "basic": [
+              "hses-english-11112-G、4"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11121",
+    "subject": "英語",
+    "edition": "版本未標示・和順111期中",
+    "year": 111,
+    "period": "六下第一次段考",
+    "sourceId": "hses-english-11121-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11121-unit-0",
+        "title": "職業志願問答",
+        "concepts": [
+          {
+            "id": "hses-english-11121-concept-0",
+            "title": "職業志願問答",
+            "goal": "依職業志願問句選出適當答句。",
+            "basic": [
+              "hses-english-11121-十、1",
+              "hses-english-11121-十、2",
+              "hses-english-11121-十、6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11121-unit-1",
+        "title": "時間介系詞",
+        "concepts": [
+          {
+            "id": "hses-english-11121-concept-1",
+            "title": "時間介系詞",
+            "goal": "辨識星期前的時間介系詞。",
+            "basic": [
+              "hses-english-11121-十、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11121-unit-2",
+        "title": "日常動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11121-concept-2",
+            "title": "日常動詞與主詞一致",
+            "goal": "依主詞選用動詞及助動詞的正確形式。",
+            "basic": [
+              "hses-english-11121-十、4",
+              "hses-english-11121-十、5"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11121-unit-3",
+        "title": "職業志願句型",
+        "concepts": [
+          {
+            "id": "hses-english-11121-concept-3",
+            "title": "職業志願句型",
+            "goal": "依提示字排列職業志願答句。",
+            "basic": [
+              "hses-english-11121-十一、1",
+              "hses-english-11121-十一、3",
+              "hses-english-11121-十一、5"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11221",
+    "subject": "英語",
+    "edition": "版本未標示・和順112期中",
+    "year": 112,
+    "period": "六下第一次段考",
+    "sourceId": "hses-english-11221-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11221-unit-0",
+        "title": "邀約與回應",
+        "concepts": [
+          {
+            "id": "hses-english-11221-concept-0",
+            "title": "邀約與回應",
+            "goal": "依邀約的活動與時間選出相符回應。",
+            "basic": [
+              "hses-english-11221-H、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11221-unit-1",
+        "title": "身體不適與回應",
+        "concepts": [
+          {
+            "id": "hses-english-11221-concept-1",
+            "title": "身體不適與回應",
+            "goal": "依身體不適情境選出適當回應。",
+            "basic": [
+              "hses-english-11221-H、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11221-unit-2",
+        "title": "日常活動問答",
+        "concepts": [
+          {
+            "id": "hses-english-11221-concept-2",
+            "title": "日常活動問答",
+            "goal": "依日常活動問句選出適當答句。",
+            "basic": [
+              "hses-english-11221-H、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11221-unit-3",
+        "title": "職業志願問答",
+        "concepts": [
+          {
+            "id": "hses-english-11221-concept-3",
+            "title": "職業志願問答",
+            "goal": "依職業志願問句選出適當答句。",
+            "basic": [
+              "hses-english-11221-H、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11221-unit-4",
+        "title": "冠詞與動詞不定詞",
+        "concepts": [
+          {
+            "id": "hses-english-11221-concept-4",
+            "title": "冠詞與動詞不定詞",
+            "goal": "辨識冠詞與want to be的用法。",
+            "basic": [
+              "hses-english-11221-J、1"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11221-unit-5",
+        "title": "主詞與代名詞",
+        "concepts": [
+          {
+            "id": "hses-english-11221-concept-5",
+            "title": "主詞與代名詞",
+            "goal": "依主詞選用動詞與代名詞。",
+            "basic": [
+              "hses-english-11221-J、2",
+              "hses-english-11221-J、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11221-unit-6",
+        "title": "職業志願句型",
+        "concepts": [
+          {
+            "id": "hses-english-11221-concept-6",
+            "title": "職業志願句型",
+            "goal": "依提示字排列職業志願答句。",
+            "basic": [
+              "hses-english-11221-K、2"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11221-unit-7",
+        "title": "日常活動句型",
+        "concepts": [
+          {
+            "id": "hses-english-11221-concept-7",
+            "title": "日常活動句型",
+            "goal": "依提示字排列日常活動答句。",
+            "basic": [
+              "hses-english-11221-K、4"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11222",
+    "subject": "英語",
+    "edition": "版本未標示・和順112期末",
+    "year": 112,
+    "period": "六下期末考",
+    "sourceId": "hses-english-11222-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11222-unit-0",
+        "title": "be動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11222-concept-0",
+            "title": "be動詞與主詞一致",
+            "goal": "依主詞選用正確be動詞。",
+            "basic": [
+              "hses-english-11222-D、1",
+              "hses-english-11222-D、2",
+              "hses-english-11222-D、5"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11222-unit-1",
+        "title": "be動詞過去式",
+        "concepts": [
+          {
+            "id": "hses-english-11222-concept-1",
+            "title": "be動詞過去式",
+            "goal": "依主詞與過去時間選用was或were。",
+            "basic": [
+              "hses-english-11222-D、3",
+              "hses-english-11222-D、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11222-unit-2",
+        "title": "日常動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11222-concept-2",
+            "title": "日常動詞與主詞一致",
+            "goal": "依主詞選用動詞及助動詞的正確形式。",
+            "basic": [
+              "hses-english-11222-D、6",
+              "hses-english-11222-D、8"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11222-unit-3",
+        "title": "名詞複數",
+        "concepts": [
+          {
+            "id": "hses-english-11222-concept-3",
+            "title": "名詞複數",
+            "goal": "辨識複數名詞的形式。",
+            "basic": [
+              "hses-english-11222-D、7"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11222-unit-4",
+        "title": "衣著介詞",
+        "concepts": [
+          {
+            "id": "hses-english-11222-concept-4",
+            "title": "衣著介詞",
+            "goal": "辨識衣著敘述的介詞。",
+            "basic": [
+              "hses-english-11222-D、9"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11211",
+    "subject": "英語",
+    "edition": "版本未標示・和順112期中",
+    "year": 112,
+    "period": "六上第一次段考",
+    "sourceId": "hses-english-11211-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11211-unit-0",
+        "title": "日常動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11211-concept-0",
+            "title": "日常動詞與主詞一致",
+            "goal": "依主詞選用動詞及助動詞的正確形式。",
+            "basic": [
+              "hses-english-11211-F、2",
+              "hses-english-11211-F、7"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11211-unit-1",
+        "title": "be動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11211-concept-1",
+            "title": "be動詞與主詞一致",
+            "goal": "依主詞選用正確be動詞。",
+            "basic": [
+              "hses-english-11211-F、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11211-unit-2",
+        "title": "名詞複數",
+        "concepts": [
+          {
+            "id": "hses-english-11211-concept-2",
+            "title": "名詞複數",
+            "goal": "辨識複數名詞的形式。",
+            "basic": [
+              "hses-english-11211-F、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11211-unit-3",
+        "title": "年齡與名詞複數",
+        "concepts": [
+          {
+            "id": "hses-english-11211-concept-3",
+            "title": "年齡與名詞複數",
+            "goal": "辨識年齡敘述的複數形式。",
+            "basic": [
+              "hses-english-11211-F、5"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11211-unit-4",
+        "title": "國名與大寫",
+        "concepts": [
+          {
+            "id": "hses-english-11211-concept-4",
+            "title": "國名與大寫",
+            "goal": "辨識國名首字母的大寫。",
+            "basic": [
+              "hses-english-11211-F、8"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11211-unit-5",
+        "title": "來源介詞拼字",
+        "concepts": [
+          {
+            "id": "hses-english-11211-concept-5",
+            "title": "來源介詞拼字",
+            "goal": "辨識from的正確拼字。",
+            "basic": [
+              "hses-english-11211-F、9"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11312",
+    "subject": "英語",
+    "edition": "版本未標示・和順113期末",
+    "year": 113,
+    "period": "六上期末考",
+    "sourceId": "hses-english-11312-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11312-unit-0",
+        "title": "所有格",
+        "concepts": [
+          {
+            "id": "hses-english-11312-concept-0",
+            "title": "所有格",
+            "goal": "依主詞與語境選用所有格。",
+            "basic": [
+              "hses-english-11312-四、17"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11312-unit-1",
+        "title": "日常動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11312-concept-1",
+            "title": "日常動詞與主詞一致",
+            "goal": "依主詞選用動詞及助動詞的正確形式。",
+            "basic": [
+              "hses-english-11312-四、18",
+              "hses-english-11312-四、20"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11312-unit-2",
+        "title": "時間問句",
+        "concepts": [
+          {
+            "id": "hses-english-11312-concept-2",
+            "title": "時間問句",
+            "goal": "辨識時間問句，並配合主詞使用助動詞。",
+            "basic": [
+              "hses-english-11312-四、21"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11411",
+    "subject": "英語",
+    "edition": "版本未標示・和順114期中",
+    "year": 114,
+    "period": "六上第一次段考",
+    "sourceId": "hses-english-11411-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11411-unit-0",
+        "title": "be動詞與地點問答",
+        "concepts": [
+          {
+            "id": "hses-english-11411-concept-0",
+            "title": "be動詞與地點問答",
+            "goal": "辨識國籍來源問句中be動詞與肯否定回答。",
+            "basic": [
+              "hses-english-11411-四、31",
+              "hses-english-11411-四、32",
+              "hses-english-11411-四、33"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11411-unit-1",
+        "title": "交通方式問句",
+        "concepts": [
+          {
+            "id": "hses-english-11411-concept-1",
+            "title": "交通方式問句",
+            "goal": "依主詞選用交通方式問句的助動詞及回答動詞。",
+            "basic": [
+              "hses-english-11411-四、34",
+              "hses-english-11411-四、35"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11412",
+    "subject": "英語",
+    "edition": "版本未標示・和順114期末",
+    "year": 114,
+    "period": "六上期末考",
+    "sourceId": "hses-english-11412-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11412-unit-0",
+        "title": "日常動詞與主詞一致",
+        "concepts": [
+          {
+            "id": "hses-english-11412-concept-0",
+            "title": "日常動詞與主詞一致",
+            "goal": "依主詞選用動詞及助動詞的正確形式。",
+            "basic": [
+              "hses-english-11412-四、31",
+              "hses-english-11412-四、34",
+              "hses-english-11412-四、35"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11412-unit-1",
+        "title": "時間問句",
+        "concepts": [
+          {
+            "id": "hses-english-11412-concept-1",
+            "title": "時間問句",
+            "goal": "辨識時間問句，並配合主詞使用助動詞。",
+            "basic": [
+              "hses-english-11412-四、32"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11412-unit-2",
+        "title": "所有格",
+        "concepts": [
+          {
+            "id": "hses-english-11412-concept-2",
+            "title": "所有格",
+            "goal": "依主詞與語境選用所有格。",
+            "basic": [
+              "hses-english-11412-四、33"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-english-11322",
+    "subject": "英語",
+    "edition": "版本未標示・和順113期末",
+    "year": 113,
+    "period": "六下期末考",
+    "sourceId": "hses-english-11322-paper",
+    "range": "已核對的原卷獨立文字文法題",
+    "scopeNote": "按已核驗原題的語言功能整理，不代表任何出版社現行完整課次；多格仍保留原題，不拆成多題計數。",
+    "missing": [
+      "教材系列、課次與完整考試範圍尚待核對",
+      "聽力、圖片、引用閱讀與疑義題未收錄",
+      "目前觀念尚缺對應的獨立應用題"
+    ],
+    "units": [
+      {
+        "id": "hses-english-11322-unit-0",
+        "title": "句子結構與價格表達",
+        "concepts": [
+          {
+            "id": "hses-english-11322-concept-0",
+            "title": "句子結構與價格表達",
+            "goal": "依原題字詞排列完整的價格敘述句。",
+            "basic": [
+              "hses-english-11322-G、1",
+              "hses-english-11322-G、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11322-unit-1",
+        "title": "單複數與價格問答",
+        "concepts": [
+          {
+            "id": "hses-english-11322-concept-1",
+            "title": "單複數與價格問答",
+            "goal": "在價格問答中依名詞單複數選用代名詞及名詞形式。",
+            "basic": [
+              "hses-english-11322-H、1",
+              "hses-english-11322-H、2",
+              "hses-english-11322-H、3"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-english-11322-unit-2",
+        "title": "所有格",
+        "concepts": [
+          {
+            "id": "hses-english-11322-concept-2",
+            "title": "所有格",
+            "goal": "依主詞與語境選用所有格。",
+            "basic": [
+              "hses-english-11322-H、4"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-11312",
+    "subject": "數學",
+    "edition": "版本未標示・和順113六上期末考",
+    "year": 113,
+    "period": "六上期末考",
+    "sourceId": "hses-math-11312-paper",
+    "range": "已核對的原卷文字與填答題主題；非完整教材目次",
+    "scopeNote": "觀念與基本／應用分類由本站整理；保留原始填答形式，答案依原刊手寫解答，不生成選項或求解標準答案。",
+    "missing": [
+      "現行教材版本與完整考試章次未核對",
+      "圖形幾何、完整素養題及其他未核驗題尚缺"
+    ],
+    "units": [
+      {
+        "id": "hses-math-11312-unit-0",
+        "title": "圓與扇形",
+        "concepts": [
+          {
+            "id": "hses-math-11312-concept-0",
+            "title": "圓與扇形",
+            "goal": "分辨圓周率、圓周長與面積，連結半徑、直徑、角度及倍數。",
+            "basic": [
+              "hses-math-11312-一、1",
+              "hses-math-11312-一、3",
+              "hses-math-11312-二、1",
+              "hses-math-11312-二、2",
+              "hses-math-11312-二、3",
+              "hses-math-11312-二、4",
+              "hses-math-11312-二、10"
+            ],
+            "application": [
+              "hses-math-11312-四、3",
+              "hses-math-11312-四、6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11312-unit-1",
+        "title": "放大縮小與比例尺",
+        "concepts": [
+          {
+            "id": "hses-math-11312-concept-1",
+            "title": "放大縮小與比例尺",
+            "goal": "辨認對應角不變、邊長倍數、面積變化及圖上與實際距離。",
+            "basic": [
+              "hses-math-11312-一、2",
+              "hses-math-11312-一、5",
+              "hses-math-11312-二、6",
+              "hses-math-11312-二、9"
+            ],
+            "application": [
+              "hses-math-11312-四、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11312-unit-2",
+        "title": "速率與單位換算",
+        "concepts": [
+          {
+            "id": "hses-math-11312-concept-2",
+            "title": "速率與單位換算",
+            "goal": "依距離、時間與單位，判斷速率及行走時間。",
+            "basic": [
+              "hses-math-11312-一、4",
+              "hses-math-11312-二、5",
+              "hses-math-11312-二、7"
+            ],
+            "application": [
+              "hses-math-11312-四、2",
+              "hses-math-11312-四、4"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-11321",
+    "subject": "數學",
+    "edition": "版本未標示・和順113六下第一次段考",
+    "year": 113,
+    "period": "六下第一次段考",
+    "sourceId": "hses-math-11321-paper",
+    "range": "已核對的原卷文字與填答題主題；非完整教材目次",
+    "scopeNote": "觀念與基本／應用分類由本站整理；保留原始填答形式，答案依原刊手寫解答，不生成選項或求解標準答案。",
+    "missing": [
+      "現行教材版本與完整考試章次未核對",
+      "圖形幾何、完整素養題及其他未核驗題尚缺"
+    ],
+    "units": [
+      {
+        "id": "hses-math-11321-unit-0",
+        "title": "倍數與數量關係",
+        "concepts": [
+          {
+            "id": "hses-math-11321-concept-0",
+            "title": "倍數與數量關係",
+            "goal": "依和、倍數、部分與整體建立未知數量的關係。",
+            "basic": [
+              "hses-math-11321-一、1"
+            ],
+            "application": [
+              "hses-math-11321-三、2",
+              "hses-math-11321-三、8",
+              "hses-math-11321-三、9"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11321-unit-1",
+        "title": "速率與追趕相遇",
+        "concepts": [
+          {
+            "id": "hses-math-11321-concept-1",
+            "title": "速率與追趕相遇",
+            "goal": "區分追趕、相遇及順逆流的速率與時間條件。",
+            "basic": [
+              "hses-math-11321-一、2"
+            ],
+            "application": [
+              "hses-math-11321-一、6",
+              "hses-math-11321-三、3",
+              "hses-math-11321-三、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11321-unit-2",
+        "title": "柱體的體積與表面積",
+        "concepts": [
+          {
+            "id": "hses-math-11321-concept-2",
+            "title": "柱體的體積與表面積",
+            "goal": "連結底面積、柱高、體積與表面積，並比較不同柱體。",
+            "basic": [
+              "hses-math-11321-一、4",
+              "hses-math-11321-一、5",
+              "hses-math-11321-一、8"
+            ],
+            "application": [
+              "hses-math-11321-三、6",
+              "hses-math-11321-三、10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11321-unit-3",
+        "title": "分數與小數運算",
+        "concepts": [
+          {
+            "id": "hses-math-11321-concept-3",
+            "title": "分數與小數運算",
+            "goal": "依完整算式與括號順序處理分數及小數。",
+            "basic": [
+              "hses-math-11321-二、1",
+              "hses-math-11321-二、2",
+              "hses-math-11321-二、4"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11321-unit-4",
+        "title": "百分率與買賣",
+        "concepts": [
+          {
+            "id": "hses-math-11321-concept-4",
+            "title": "百分率與買賣",
+            "goal": "區分成本、加價率、售價及利潤。",
+            "basic": [],
+            "application": [
+              "hses-math-11321-三、7"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-11322",
+    "subject": "數學",
+    "edition": "版本未標示・和順113六下期末考",
+    "year": 113,
+    "period": "六下期末考",
+    "sourceId": "hses-math-11322-paper",
+    "range": "已核對的原卷文字與填答題主題；非完整教材目次",
+    "scopeNote": "觀念與基本／應用分類由本站整理；保留原始填答形式，答案依原刊手寫解答，不生成選項或求解標準答案。",
+    "missing": [
+      "現行教材版本與完整考試章次未核對",
+      "圖形幾何、完整素養題及其他未核驗題尚缺"
+    ],
+    "units": [
+      {
+        "id": "hses-math-11322-unit-0",
+        "title": "倍數與數量關係",
+        "concepts": [
+          {
+            "id": "hses-math-11322-concept-0",
+            "title": "倍數與數量關係",
+            "goal": "依和、倍數、部分與整體建立未知數量的關係。",
+            "basic": [
+              "hses-math-11322-一、1",
+              "hses-math-11322-一、3",
+              "hses-math-11322-一、10",
+              "hses-math-11322-三、2",
+              "hses-math-11322-三、4"
+            ],
+            "application": [
+              "hses-math-11322-一、6",
+              "hses-math-11322-四、1",
+              "hses-math-11322-四、2",
+              "hses-math-11322-四、4",
+              "hses-math-11322-四、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11322-unit-1",
+        "title": "統計圖表",
+        "concepts": [
+          {
+            "id": "hses-math-11322-concept-1",
+            "title": "統計圖表",
+            "goal": "依統計表分辨人數、比率與圓形百分圖的關係。",
+            "basic": [
+              "hses-math-11322-一、2",
+              "hses-math-11322-一、7",
+              "hses-math-11322-一、9"
+            ],
+            "application": [
+              "hses-math-11322-四、3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11322-unit-2",
+        "title": "可能性與計數",
+        "concepts": [
+          {
+            "id": "hses-math-11322-concept-2",
+            "title": "可能性與計數",
+            "goal": "依所有條件列出可能結果與選擇組合。",
+            "basic": [
+              "hses-math-11322-一、4",
+              "hses-math-11322-三、1(1)",
+              "hses-math-11322-三、1(2)",
+              "hses-math-11322-三、3",
+              "hses-math-11322-三、5"
+            ],
+            "application": [
+              "hses-math-11322-四、6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11322-unit-3",
+        "title": "圓與扇形",
+        "concepts": [
+          {
+            "id": "hses-math-11322-concept-3",
+            "title": "圓與扇形",
+            "goal": "分辨圓周率、圓周長與面積，連結半徑、直徑、角度及倍數。",
+            "basic": [
+              "hses-math-11322-一、5"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-math-11411",
+    "subject": "數學",
+    "edition": "版本未標示・和順114六上第一次段考",
+    "year": 114,
+    "period": "六上第一次段考",
+    "sourceId": "hses-math-11411-paper",
+    "range": "已核對的原卷文字與填答題主題；非完整教材目次",
+    "scopeNote": "觀念與基本／應用分類由本站整理；保留原始填答形式，答案依原刊手寫解答，不生成選項或求解標準答案。",
+    "missing": [
+      "現行教材版本與完整考試章次未核對",
+      "圖形幾何、完整素養題及其他未核驗題尚缺"
+    ],
+    "units": [
+      {
+        "id": "hses-math-11411-unit-0",
+        "title": "可能性與計數",
+        "concepts": [
+          {
+            "id": "hses-math-11411-concept-0",
+            "title": "可能性與計數",
+            "goal": "依所有條件列出可能結果與選擇組合。",
+            "basic": [
+              "hses-math-11411-一、1"
+            ],
+            "application": [
+              "hses-math-11411-五、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11411-unit-1",
+        "title": "因數與倍數",
+        "concepts": [
+          {
+            "id": "hses-math-11411-concept-1",
+            "title": "因數與倍數",
+            "goal": "辨識質數、合數、最大公因數與最小公倍數。",
+            "basic": [
+              "hses-math-11411-一、2",
+              "hses-math-11411-二、4"
+            ],
+            "application": [
+              "hses-math-11411-五、6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11411-unit-2",
+        "title": "比與比例",
+        "concepts": [
+          {
+            "id": "hses-math-11411-concept-2",
+            "title": "比與比例",
+            "goal": "依相等比及數量條件找出未知項。",
+            "basic": [
+              "hses-math-11411-一、3",
+              "hses-math-11411-二、1",
+              "hses-math-11411-二、3"
+            ],
+            "application": [
+              "hses-math-11411-五、8"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11411-unit-3",
+        "title": "分數與小數運算",
+        "concepts": [
+          {
+            "id": "hses-math-11411-concept-3",
+            "title": "分數與小數運算",
+            "goal": "依完整算式與括號順序處理分數及小數。",
+            "basic": [
+              "hses-math-11411-一、4",
+              "hses-math-11411-一、5",
+              "hses-math-11411-三、(1)",
+              "hses-math-11411-三、(2)",
+              "hses-math-11411-四、(1)",
+              "hses-math-11411-四、(2)",
+              "hses-math-11411-四、(3)",
+              "hses-math-11411-四、(4)"
+            ],
+            "application": [
+              "hses-math-11411-五、1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-math-11411-unit-4",
+        "title": "循環小數",
+        "concepts": [
+          {
+            "id": "hses-math-11411-concept-4",
+            "title": "循環小數",
+            "goal": "依循環節與指定位數辨識小數數字。",
+            "basic": [
+              "hses-math-11411-二、2"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-science-11321",
+    "subject": "自然",
+    "edition": "版本未標示・和順113下期中",
+    "year": 113,
+    "period": "六下第一次段考",
+    "range": "已核對原卷主題：聲音與樂器、輪軸、滑輪與齒輪",
+    "scopeNote": "依原卷主題整理；基本／應用是本站題型分類，未核對該年度完整教材目次，不當作現行課本完整範圍。",
+    "sourceId": "hses-science-11321-paper",
+    "missing": [
+      "完整教材版本與目次未標示",
+      "圖像、閱讀及其他未逐題核驗的試題未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-science-11321-unit-0",
+        "title": "聲音與樂器",
+        "concepts": [
+          {
+            "id": "hses-science-11321-concept-0",
+            "title": "聲音與樂器",
+            "goal": "區分聲音高低、音量、音色，連結振動部位及樂器的調整方式。",
+            "basic": [
+              "hses-science-11321-一、1",
+              "hses-science-11321-一、2",
+              "hses-science-11321-一、4",
+              "hses-science-11321-一、6",
+              "hses-science-11321-一、7",
+              "hses-science-11321-一、8",
+              "hses-science-11321-二、3",
+              "hses-science-11321-四、1(1)",
+              "hses-science-11321-四、1(2)",
+              "hses-science-11321-四、1(3)"
+            ],
+            "application": [
+              "hses-science-11321-二、1",
+              "hses-science-11321-二、2",
+              "hses-science-11321-二、4",
+              "hses-science-11321-二、9"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11321-unit-1",
+        "title": "輪軸與齒輪",
+        "concepts": [
+          {
+            "id": "hses-science-11321-concept-1",
+            "title": "輪軸與齒輪",
+            "goal": "分析輪軸、滑輪與齒輪的作用、施力及轉動方向。",
+            "basic": [
+              "hses-science-11321-一、3",
+              "hses-science-11321-一、9",
+              "hses-science-11321-二、8",
+              "hses-science-11321-二、10"
+            ],
+            "application": [
+              "hses-science-11321-二、5",
+              "hses-science-11321-二、7"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-science-11322",
+    "subject": "自然",
+    "edition": "版本未標示・和順113學年度",
+    "year": 113,
+    "period": "六下期末考",
+    "range": "逐題核驗的獨立文字題主題",
+    "scopeNote": "基本／應用為本站整理分類；未核對完整教材目次，不代表現行完整課次。",
+    "sourceId": "hses-science-11322-paper",
+    "missing": [
+      "完整教材版本、目次與課次範圍未核對",
+      "第三方圖文、時效及疑義題排除"
+    ],
+    "units": [
+      {
+        "id": "hses-science-11322-unit-0",
+        "title": "生態系與環境",
+        "concepts": [
+          {
+            "id": "hses-science-11322-concept-0",
+            "title": "生態系與環境",
+            "goal": "辨識與應用生態系與環境的原卷觀念。",
+            "basic": [
+              "hses-science-11322-一、1",
+              "hses-science-11322-一、9",
+              "hses-science-11322-二、10",
+              "hses-science-11322-四、5(1)",
+              "hses-science-11322-四、5(2)",
+              "hses-science-11322-四、5(3)",
+              "hses-science-11322-四、5(4)",
+              "hses-science-11322-四、5(5)"
+            ],
+            "application": [
+              "hses-science-11322-二、2",
+              "hses-science-11322-二、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11322-unit-1",
+        "title": "輪軸與齒輪",
+        "concepts": [
+          {
+            "id": "hses-science-11322-concept-1",
+            "title": "輪軸與齒輪",
+            "goal": "辨識與應用輪軸與齒輪的原卷觀念。",
+            "basic": [
+              "hses-science-11322-一、2",
+              "hses-science-11322-一、8",
+              "hses-science-11322-二、4"
+            ],
+            "application": [
+              "hses-science-11322-二、1",
+              "hses-science-11322-二、3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11322-unit-2",
+        "title": "聲音與樂器",
+        "concepts": [
+          {
+            "id": "hses-science-11322-concept-2",
+            "title": "聲音與樂器",
+            "goal": "辨識與應用聲音與樂器的原卷觀念。",
+            "basic": [
+              "hses-science-11322-一、3",
+              "hses-science-11322-一、4",
+              "hses-science-11322-一、5",
+              "hses-science-11322-一、6"
+            ],
+            "application": [
+              "hses-science-11322-四、4(1)",
+              "hses-science-11322-四、4(2)",
+              "hses-science-11322-四、4(3)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11322-unit-3",
+        "title": "環境與永續",
+        "concepts": [
+          {
+            "id": "hses-science-11322-concept-3",
+            "title": "環境與永續",
+            "goal": "辨識與應用環境與永續的原卷觀念。",
+            "basic": [
+              "hses-science-11322-一、10",
+              "hses-science-11322-四、3(1)",
+              "hses-science-11322-四、3(2)"
+            ],
+            "application": [
+              "hses-science-11322-二、6",
+              "hses-science-11322-二、7",
+              "hses-science-11322-四、1(1)",
+              "hses-science-11322-四、1(2)",
+              "hses-science-11322-四、1(3)",
+              "hses-science-11322-四、1(4)",
+              "hses-science-11322-五、1(1)",
+              "hses-science-11322-五、1(2)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-science-11422",
+    "subject": "自然",
+    "edition": "版本未標示・和順114學年度",
+    "year": 114,
+    "period": "六下期末考",
+    "range": "逐題核驗的獨立文字題主題",
+    "scopeNote": "基本／應用為本站整理分類；未核對完整教材目次，不代表現行完整課次。",
+    "sourceId": "hses-science-11422-paper",
+    "missing": [
+      "完整教材版本、目次與課次範圍未核對",
+      "第三方圖文、時效及疑義題排除"
+    ],
+    "units": [
+      {
+        "id": "hses-science-11422-unit-0",
+        "title": "輪軸與齒輪",
+        "concepts": [
+          {
+            "id": "hses-science-11422-concept-0",
+            "title": "輪軸與齒輪",
+            "goal": "辨識與應用輪軸與齒輪的原卷觀念。",
+            "basic": [
+              "hses-science-11422-第一大題、2"
+            ],
+            "application": [
+              "hses-science-11422-第一大題、1",
+              "hses-science-11422-第二大題、1",
+              "hses-science-11422-第二大題、2",
+              "hses-science-11422-第二大題、3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11422-unit-1",
+        "title": "聲音與樂器",
+        "concepts": [
+          {
+            "id": "hses-science-11422-concept-1",
+            "title": "聲音與樂器",
+            "goal": "辨識與應用聲音與樂器的原卷觀念。",
+            "basic": [
+              "hses-science-11422-第一大題、3",
+              "hses-science-11422-第一大題、4"
+            ],
+            "application": [
+              "hses-science-11422-第二大題、4",
+              "hses-science-11422-第二大題、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11422-unit-2",
+        "title": "生態系與環境",
+        "concepts": [
+          {
+            "id": "hses-science-11422-concept-2",
+            "title": "生態系與環境",
+            "goal": "辨識與應用生態系與環境的原卷觀念。",
+            "basic": [
+              "hses-science-11422-第一大題、5",
+              "hses-science-11422-第一大題、6",
+              "hses-science-11422-第一大題、7",
+              "hses-science-11422-第一大題、8",
+              "hses-science-11422-第二大題、8",
+              "hses-science-11422-第二大題、9"
+            ],
+            "application": [
+              "hses-science-11422-第二大題、7",
+              "hses-science-11422-第二大題、10",
+              "hses-science-11422-第二大題、14",
+              "hses-science-11422-第三大題、三(1)",
+              "hses-science-11422-第三大題、三(2)",
+              "hses-science-11422-第三大題、三(3)",
+              "hses-science-11422-第三大題、三(4)",
+              "hses-science-11422-第三大題、三(5)",
+              "hses-science-11422-第三大題、三(6)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-science-11422-unit-3",
+        "title": "環境與永續",
+        "concepts": [
+          {
+            "id": "hses-science-11422-concept-3",
+            "title": "環境與永續",
+            "goal": "辨識與應用環境與永續的原卷觀念。",
+            "basic": [
+              "hses-science-11422-第一大題、9",
+              "hses-science-11422-第一大題、10",
+              "hses-science-11422-第二大題、13",
+              "hses-science-11422-第二大題、15"
+            ],
+            "application": [
+              "hses-science-11422-第二大題、11",
+              "hses-science-11422-第二大題、12",
+              "hses-science-11422-第三大題、四(1)",
+              "hses-science-11422-第三大題、四(2)",
+              "hses-science-11422-第三大題、四(3)",
+              "hses-science-11422-第三大題、四(4)",
+              "hses-science-11422-第三大題、四(5)",
+              "hses-science-11422-第三大題、四(6)",
+              "hses-science-11422-第三大題、五(1)",
+              "hses-science-11422-第三大題、五(2)",
+              "hses-science-11422-第三大題、五(3)",
+              "hses-science-11422-第三大題、五(4)",
+              "hses-science-11422-第三大題、五(5)",
+              "hses-science-11422-第三大題、五(6)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-science-11421",
+    "subject": "自然",
+    "edition": "版本未標示・和順114學年度",
+    "year": 114,
+    "period": "六下第一次段考",
+    "range": "逐題核驗的獨立文字題主題",
+    "scopeNote": "基本／應用為本站整理分類；未核對完整教材目次，不代表現行完整課次。",
+    "sourceId": "hses-science-11421-paper",
+    "missing": [
+      "完整教材版本、目次與課次範圍未核對",
+      "第三方圖文、時效及疑義題排除"
+    ],
+    "units": [
+      {
+        "id": "hses-science-11421-unit-0",
+        "title": "輪軸與齒輪",
+        "concepts": [
+          {
+            "id": "hses-science-11421-concept-0",
+            "title": "輪軸與齒輪",
+            "goal": "辨識與應用輪軸與齒輪的原卷觀念。",
+            "basic": [],
+            "application": [
+              "hses-science-11421-三、槓桿實驗(1)",
+              "hses-science-11421-三、槓桿實驗(2)",
+              "hses-science-11421-三、槓桿實驗(3)",
+              "hses-science-11421-三、槓桿實驗(4)",
+              "hses-science-11421-三、槓桿實驗(5)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-social-11311",
+    "subject": "社會",
+    "edition": "版本未標示・和順113上期中",
+    "year": 113,
+    "period": "六上第一次段考",
+    "range": "原卷已核對獨立文字題的主題整理",
+    "scopeNote": "基本／應用為本站題型整理，不是原校難度標籤；未核對完整教材目次，不代表現行完整課次或其他學校本次範圍。",
+    "sourceId": "hses-social-11311-paper",
+    "missing": [
+      "教材版本、各課目次與本次完整進度尚待核對",
+      "圖片、第三方引用閱讀及有疑義內容未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-social-11311-unit-0",
+        "title": "民主制度與人民權利",
+        "concepts": [
+          {
+            "id": "hses-social-11311-concept-0",
+            "title": "民主制度與人民權利",
+            "goal": "區分政府機關的職責、人民基本權利與戒嚴對自由的限制。",
+            "basic": [
+              "hses-social-11311-一、1",
+              "hses-social-11311-一、2",
+              "hses-social-11311-一、6",
+              "hses-social-11311-一、10",
+              "hses-social-11311-一、11",
+              "hses-social-11311-一、13",
+              "hses-social-11311-二、2"
+            ],
+            "application": [
+              "hses-social-11311-二、4",
+              "hses-social-11311-二、9"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11311-unit-1",
+        "title": "日治與戰後歷史",
+        "concepts": [
+          {
+            "id": "hses-social-11311-concept-1",
+            "title": "日治與戰後歷史",
+            "goal": "依歷史時期區分統治政策、公共衛生、民主改革與社會變遷。",
+            "basic": [
+              "hses-social-11311-一、3",
+              "hses-social-11311-一、4",
+              "hses-social-11311-一、5",
+              "hses-social-11311-一、7",
+              "hses-social-11311-一、9",
+              "hses-social-11311-一、12",
+              "hses-social-11311-一、14",
+              "hses-social-11311-一、15",
+              "hses-social-11311-二、3",
+              "hses-social-11311-二、7"
+            ],
+            "application": [
+              "hses-social-11311-二、1",
+              "hses-social-11311-二、6",
+              "hses-social-11311-二、10"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11311-unit-2",
+        "title": "社會變遷與歷史觀察",
+        "concepts": [
+          {
+            "id": "hses-social-11311-concept-2",
+            "title": "社會變遷與歷史觀察",
+            "goal": "依歷史時期區分統治政策、公共衛生、民主改革與社會變遷。",
+            "basic": [
+              "hses-social-11311-一、8"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-social-11312",
+    "subject": "社會",
+    "edition": "版本未標示・和順113上期末",
+    "year": 113,
+    "period": "六上期末考",
+    "range": "原卷已核對獨立文字題的主題整理",
+    "scopeNote": "基本／應用為本站題型整理，不是原校難度標籤；未核對完整教材目次，不代表現行完整課次或其他學校本次範圍。",
+    "sourceId": "hses-social-11312-paper",
+    "missing": [
+      "教材版本、各課目次與本次完整進度尚待核對",
+      "圖片、第三方引用閱讀及有疑義內容未收錄"
+    ],
+    "units": [
+      {
+        "id": "hses-social-11312-unit-0",
+        "title": "臺灣經濟發展",
+        "concepts": [
+          {
+            "id": "hses-social-11312-concept-0",
+            "title": "臺灣經濟發展",
+            "goal": "辨識不同時期的產業、資源政策、土地改革與外援。",
+            "basic": [
+              "hses-social-11312-二、1",
+              "hses-social-11312-二、2",
+              "hses-social-11312-二、3",
+              "hses-social-11312-二、4",
+              "hses-social-11312-二、5",
+              "hses-social-11312-二、6"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11312-unit-1",
+        "title": "區域與聚落",
+        "concepts": [
+          {
+            "id": "hses-social-11312-concept-1",
+            "title": "區域與聚落",
+            "goal": "辨識臺灣區域與都市發展的描述。",
+            "basic": [
+              "hses-social-11312-二、7"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-social-11321",
+    "subject": "社會",
+    "edition": "版本未標示・和順113學年度",
+    "year": 113,
+    "period": "六下第一次段考",
+    "range": "逐題核驗的獨立文字題主題",
+    "scopeNote": "基本／應用為本站整理分類；未核對完整教材目次，不代表現行完整課次。",
+    "sourceId": "hses-social-11321-paper",
+    "missing": [
+      "完整教材版本、目次與課次範圍未核對",
+      "第三方圖文、時效及疑義題排除"
+    ],
+    "units": [
+      {
+        "id": "hses-social-11321-unit-0",
+        "title": "宗教與文化",
+        "concepts": [
+          {
+            "id": "hses-social-11321-concept-0",
+            "title": "宗教與文化",
+            "goal": "辨識與應用宗教與文化的原卷觀念。",
+            "basic": [
+              "hses-social-11321-一、1",
+              "hses-social-11321-一、2",
+              "hses-social-11321-一、3",
+              "hses-social-11321-一、5",
+              "hses-social-11321-一、6",
+              "hses-social-11321-一、7",
+              "hses-social-11321-一、16",
+              "hses-social-11321-二、1",
+              "hses-social-11321-二、4",
+              "hses-social-11321-二、12",
+              "hses-social-11321-二、15"
+            ],
+            "application": [
+              "hses-social-11321-二、5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11321-unit-1",
+        "title": "科技與社會",
+        "concepts": [
+          {
+            "id": "hses-social-11321-concept-1",
+            "title": "科技與社會",
+            "goal": "辨識與應用科技與社會的原卷觀念。",
+            "basic": [
+              "hses-social-11321-一、4",
+              "hses-social-11321-二、2",
+              "hses-social-11321-二、7"
+            ],
+            "application": [
+              "hses-social-11321-二、6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11321-unit-2",
+        "title": "飲食與族群",
+        "concepts": [
+          {
+            "id": "hses-social-11321-concept-2",
+            "title": "飲食與族群",
+            "goal": "辨識與應用飲食與族群的原卷觀念。",
+            "basic": [
+              "hses-social-11321-一、8",
+              "hses-social-11321-一、9",
+              "hses-social-11321-一、10",
+              "hses-social-11321-二、9",
+              "hses-social-11321-二、10"
+            ],
+            "application": [
+              "hses-social-11321-二、8"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11321-unit-3",
+        "title": "資訊素養與網路安全",
+        "concepts": [
+          {
+            "id": "hses-social-11321-concept-3",
+            "title": "資訊素養與網路安全",
+            "goal": "辨識與應用資訊素養與網路安全的原卷觀念。",
+            "basic": [
+              "hses-social-11321-一、12",
+              "hses-social-11321-一、13",
+              "hses-social-11321-一、14",
+              "hses-social-11321-一、15"
+            ],
+            "application": [
+              "hses-social-11321-二、13",
+              "hses-social-11321-二、17",
+              "hses-social-11321-三、1(1)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11321-unit-4",
+        "title": "氣候與永續",
+        "concepts": [
+          {
+            "id": "hses-social-11321-concept-4",
+            "title": "氣候與永續",
+            "goal": "辨識與應用氣候與永續的原卷觀念。",
+            "basic": [
+              "hses-social-11321-一、19",
+              "hses-social-11321-一、20"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-social-11411",
+    "subject": "社會",
+    "edition": "版本未標示・和順114學年度",
+    "year": 114,
+    "period": "六上第一次段考",
+    "range": "逐題核驗的獨立文字題主題",
+    "scopeNote": "基本／應用為本站整理分類；未核對完整教材目次，不代表現行完整課次。",
+    "sourceId": "hses-social-11411-paper",
+    "missing": [
+      "完整教材版本、目次與課次範圍未核對",
+      "第三方圖文、時效及疑義題排除"
+    ],
+    "units": [
+      {
+        "id": "hses-social-11411-unit-0",
+        "title": "日治與戰後歷史",
+        "concepts": [
+          {
+            "id": "hses-social-11411-concept-0",
+            "title": "日治與戰後歷史",
+            "goal": "辨識與應用日治與戰後歷史的原卷觀念。",
+            "basic": [
+              "hses-social-11411-一、1",
+              "hses-social-11411-一、5",
+              "hses-social-11411-二、1",
+              "hses-social-11411-二、5",
+              "hses-social-11411-二、6",
+              "hses-social-11411-二、7",
+              "hses-social-11411-二、12"
+            ],
+            "application": [
+              "hses-social-11411-二、23"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11411-unit-1",
+        "title": "民主制度與人民權利",
+        "concepts": [
+          {
+            "id": "hses-social-11411-concept-1",
+            "title": "民主制度與人民權利",
+            "goal": "辨識與應用民主制度與人民權利的原卷觀念。",
+            "basic": [
+              "hses-social-11411-一、2",
+              "hses-social-11411-一、3",
+              "hses-social-11411-一、4",
+              "hses-social-11411-二、2",
+              "hses-social-11411-二、3",
+              "hses-social-11411-二、8",
+              "hses-social-11411-二、9",
+              "hses-social-11411-二、15"
+            ],
+            "application": [
+              "hses-social-11411-二、4",
+              "hses-social-11411-二、10",
+              "hses-social-11411-二、11",
+              "hses-social-11411-二、21",
+              "hses-social-11411-二、24",
+              "hses-social-11411-三、(一)1",
+              "hses-social-11411-三、(一)2",
+              "hses-social-11411-三、(一)3",
+              "hses-social-11411-三、(一)4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11411-unit-2",
+        "title": "社會變遷與家庭",
+        "concepts": [
+          {
+            "id": "hses-social-11411-concept-2",
+            "title": "社會變遷與家庭",
+            "goal": "辨識與應用社會變遷與家庭的原卷觀念。",
+            "basic": [
+              "hses-social-11411-一、7",
+              "hses-social-11411-一、8",
+              "hses-social-11411-二、13",
+              "hses-social-11411-二、16",
+              "hses-social-11411-二、17"
+            ],
+            "application": [
+              "hses-social-11411-二、25"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11411-unit-3",
+        "title": "宗教與文化",
+        "concepts": [
+          {
+            "id": "hses-social-11411-concept-3",
+            "title": "宗教與文化",
+            "goal": "辨識與應用宗教與文化的原卷觀念。",
+            "basic": [
+              "hses-social-11411-一、9",
+              "hses-social-11411-一、10",
+              "hses-social-11411-二、18",
+              "hses-social-11411-二、20",
+              "hses-social-11411-三、(二)1",
+              "hses-social-11411-三、(二)2",
+              "hses-social-11411-三、(二)3",
+              "hses-social-11411-三、(二)4"
+            ],
+            "application": [
+              "hses-social-11411-二、19",
+              "hses-social-11411-二、26"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-social-11421",
+    "subject": "社會",
+    "edition": "版本未標示・和順114學年度",
+    "year": 114,
+    "period": "六下第一次段考",
+    "range": "逐題核驗的獨立文字題主題",
+    "scopeNote": "基本／應用為本站整理分類；未核對完整教材目次，不代表現行完整課次。",
+    "sourceId": "hses-social-11421-paper",
+    "missing": [
+      "完整教材版本、目次與課次範圍未核對",
+      "第三方圖文、時效及疑義題排除"
+    ],
+    "units": [
+      {
+        "id": "hses-social-11421-unit-0",
+        "title": "資訊素養與網路安全",
+        "concepts": [
+          {
+            "id": "hses-social-11421-concept-0",
+            "title": "資訊素養與網路安全",
+            "goal": "辨識與應用資訊素養與網路安全的原卷觀念。",
+            "basic": [
+              "hses-social-11421-一、1",
+              "hses-social-11421-二、8"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11421-unit-1",
+        "title": "宗教與文化",
+        "concepts": [
+          {
+            "id": "hses-social-11421-concept-1",
+            "title": "宗教與文化",
+            "goal": "辨識與應用宗教與文化的原卷觀念。",
+            "basic": [
+              "hses-social-11421-一、2",
+              "hses-social-11421-一、3",
+              "hses-social-11421-一、10",
+              "hses-social-11421-七、1(1)",
+              "hses-social-11421-七、1(2)",
+              "hses-social-11421-七、1(3)",
+              "hses-social-11421-七、1(4)",
+              "hses-social-11421-八、1(1)",
+              "hses-social-11421-八、1(2)",
+              "hses-social-11421-八、1(3)",
+              "hses-social-11421-八、1(4)"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11421-unit-2",
+        "title": "科技與社會",
+        "concepts": [
+          {
+            "id": "hses-social-11421-concept-2",
+            "title": "科技與社會",
+            "goal": "辨識與應用科技與社會的原卷觀念。",
+            "basic": [
+              "hses-social-11421-一、4",
+              "hses-social-11421-一、5",
+              "hses-social-11421-一、7",
+              "hses-social-11421-二、3"
+            ],
+            "application": [
+              "hses-social-11421-二、4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11421-unit-3",
+        "title": "日治與戰後歷史",
+        "concepts": [
+          {
+            "id": "hses-social-11421-concept-3",
+            "title": "日治與戰後歷史",
+            "goal": "辨識與應用日治與戰後歷史的原卷觀念。",
+            "basic": [
+              "hses-social-11421-一、6",
+              "hses-social-11421-一、9",
+              "hses-social-11421-二、9",
+              "hses-social-11421-二、11"
+            ],
+            "application": [
+              "hses-social-11421-二、6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11421-unit-4",
+        "title": "氣候與永續",
+        "concepts": [
+          {
+            "id": "hses-social-11421-concept-4",
+            "title": "氣候與永續",
+            "goal": "辨識與應用氣候與永續的原卷觀念。",
+            "basic": [
+              "hses-social-11421-一、8",
+              "hses-social-11421-二、10"
+            ],
+            "application": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hses-social-11422",
+    "subject": "社會",
+    "edition": "版本未標示・和順114學年度",
+    "year": 114,
+    "period": "六下期末考",
+    "range": "逐題核驗的獨立文字題主題",
+    "scopeNote": "基本／應用為本站整理分類；未核對完整教材目次，不代表現行完整課次。",
+    "sourceId": "hses-social-11422-paper",
+    "missing": [
+      "完整教材版本、目次與課次範圍未核對",
+      "第三方圖文、時效及疑義題排除"
+    ],
+    "units": [
+      {
+        "id": "hses-social-11422-unit-0",
+        "title": "全球經濟與人權",
+        "concepts": [
+          {
+            "id": "hses-social-11422-concept-0",
+            "title": "全球經濟與人權",
+            "goal": "辨識與應用全球經濟與人權的原卷觀念。",
+            "basic": [
+              "hses-social-11422-一、1",
+              "hses-social-11422-一、4",
+              "hses-social-11422-一、6",
+              "hses-social-11422-一、11",
+              "hses-social-11422-一、13",
+              "hses-social-11422-二、1"
+            ],
+            "application": [
+              "hses-social-11422-二、4",
+              "hses-social-11422-二、19",
+              "hses-social-11422-三、1(1)",
+              "hses-social-11422-三、1(2)",
+              "hses-social-11422-三、1(3)",
+              "hses-social-11422-三、3(1)",
+              "hses-social-11422-三、3(2)",
+              "hses-social-11422-三、3(3)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11422-unit-1",
+        "title": "糧食與水資源",
+        "concepts": [
+          {
+            "id": "hses-social-11422-concept-1",
+            "title": "糧食與水資源",
+            "goal": "辨識與應用糧食與水資源的原卷觀念。",
+            "basic": [
+              "hses-social-11422-一、2",
+              "hses-social-11422-一、3",
+              "hses-social-11422-一、7"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11422-unit-2",
+        "title": "氣候與永續",
+        "concepts": [
+          {
+            "id": "hses-social-11422-concept-2",
+            "title": "氣候與永續",
+            "goal": "辨識與應用氣候與永續的原卷觀念。",
+            "basic": [
+              "hses-social-11422-一、5",
+              "hses-social-11422-一、15",
+              "hses-social-11422-一、16",
+              "hses-social-11422-二、11"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11422-unit-3",
+        "title": "國際組織與交流",
+        "concepts": [
+          {
+            "id": "hses-social-11422-concept-3",
+            "title": "國際組織與交流",
+            "goal": "辨識與應用國際組織與交流的原卷觀念。",
+            "basic": [
+              "hses-social-11422-一、8",
+              "hses-social-11422-一、10",
+              "hses-social-11422-一、12",
+              "hses-social-11422-二、3",
+              "hses-social-11422-二、5",
+              "hses-social-11422-二、6",
+              "hses-social-11422-二、9",
+              "hses-social-11422-二、14",
+              "hses-social-11422-二、18"
+            ],
+            "application": []
+          }
+        ]
+      },
+      {
+        "id": "hses-social-11422-unit-4",
+        "title": "宗教與文化",
+        "concepts": [
+          {
+            "id": "hses-social-11422-concept-4",
+            "title": "宗教與文化",
+            "goal": "辨識與應用宗教與文化的原卷觀念。",
+            "basic": [],
+            "application": [
+              "hses-social-11422-二、15"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-10-26T23:07:45.654Z",
+  "targetPerSubject": 200,
+  "activeTotal": 969,
+  "retiredTotal": 11,
+  "subjects": [
+    {
+      "subject": "國語",
+      "active": 200,
+      "remaining": 0,
+      "periods": {
+        "六上第一次段考": 35,
+        "六上期末考": 67,
+        "六下第一次段考": 60,
+        "六下期末考": 38
+      }
+    },
+    {
+      "subject": "英語",
+      "active": 169,
+      "remaining": 31,
+      "periods": {
+        "六上第一次段考": 21,
+        "六上期末考": 31,
+        "六下第一次段考": 47,
+        "六下期末考": 70
+      }
+    },
+    {
+      "subject": "數學",
+      "active": 200,
+      "remaining": 0,
+      "periods": {
+        "六上第一次段考": 75,
+        "六上期末考": 43,
+        "六下第一次段考": 42,
+        "六下期末考": 40
+      }
+    },
+    {
+      "subject": "自然",
+      "active": 200,
+      "remaining": 0,
+      "periods": {
+        "六上第一次段考": 3,
+        "六上期末考": 72,
+        "六下第一次段考": 25,
+        "六下期末考": 100
+      }
+    },
+    {
+      "subject": "社會",
+      "active": 200,
+      "remaining": 0,
+      "periods": {
+        "六上第一次段考": 64,
+        "六上期末考": 7,
+        "六下第一次段考": 56,
+        "六下期末考": 73
+      }
+    }
+  ],
+  "sourceCount": 123,
+  "studyPlanCount": 67,
+  "limits": [
+    "題型分類非官方難度或必考頻率",
+    "部分原卷未標示教材版本，未完成現行課本完整課次對照",
+    "圖像、聽力、第三方閱讀材料及疑義題未納入",
+    "來源無詳解，不生成解析"
+  ],
+  "deployment": {
+    "status": "deployed",
+    "url": "https://sporting.github.io/grade6-review/",
+    "provider": "GitHub Pages",
+    "repository": "https://github.com/sporting/grade6-review",
+    "note": "使用本機Git/API發布；實際上線狀態以GitHub Pages及工作流程結果為準。"
+  }
+}

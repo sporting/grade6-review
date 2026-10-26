@@ -1,0 +1,14 @@
+import type {VocabularyState} from './vocabulary.ts';
+export type Level='自動'|'基礎'|'標準'|'進階';
+export type TrainingSettings={subject:Subject|'全科';stage:'全部'|'六上'|'六下';period:ExamPeriod|'全部';level:Level;plans:Partial<Record<Subject,string>>;units:Partial<Record<Subject,string[]>>};
+export type ExamPeriod = '六上第一次段考'|'六上期末考'|'六下第一次段考'|'六下期末考';
+export type Subject = '國語'|'英語'|'數學'|'自然'|'社會';
+export const subjects: Subject[] = ['國語','英語','數學','自然','社會'];
+export type Source = {sourceId:string;examPeriod:ExamPeriod;title:string;publisher:string;url:string;schoolYear:number|null;semester:number|null;grade:number;subject:Subject;edition:string;accessedAt:string;accessStatus:string;reuseTerms:string;reuseEvidence:string;correctionNotes:string};
+export type Question = {answerType?:'short';officialAnswer?:string;questionId:string;revision:number;subject:Subject;unit:string;unitMappingStatus:'來源明示'|'整理分類'|'待確認';originalQuestionNumber:string;stem:string;options:{id:string;text:string;underline?:[number,number]}[];correctOptionId:string;passageId:string|null;assetIds:string[];questionSourceId:string;questionPage:number;answerSourceId:string;answerPage:number;officialExplanation:string|null;status:'draft'|'sourceChecked'|'excluded';verificationNotes:string};
+export type Mode='practice'|'quiz'|'review';
+export type Answer={inputText?:string;selectedOptionId:string|null;locked:boolean;skipped:boolean;misunderstood:boolean;answeredAt?:string};
+export type Session={id:string;mode:Mode;subject:Subject|'全科';unit:string;label?:string;questions:Question[];answers:Record<string,Answer>;index:number;startedAt:string};
+export type RecordEntry={questionId:string;revision:number;sessionId:string;mode:Mode;subject:Subject;unit:string;selectedOptionId:string|null;isCorrect:boolean|null;answeredAt:string;skipped:boolean};
+export type Completed={id:string;mode:Mode;subject:Subject|'全科';unit:string;label?:string;questions:Question[];answers:Record<string,Answer>;completedAt:string};
+export type State={version:1;vocabulary?:VocabularyState;settings:{subject:Subject;unit:string;examPeriod?:ExamPeriod|'全部';studyPlanId?:string;training?:TrainingSettings};active:Session|null;history:RecordEntry[];completed:Completed[];review:Record<string,{streak:number;lastCorrectSession:string|null}>;reports:Record<string,{at:string;reason:string}>};

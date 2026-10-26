@@ -1,0 +1,19 @@
+import type {Question,Source} from './types.ts';
+export const english114Sources:Source[]=[['11421',1681,1680,279,'六下第一次段考'],['11422',1745,1744,286,'六下期末考']].flatMap(([period,paper,key,cat,examPeriod])=>['paper','key'].map(kind=>({sourceId:`hses-english-${period}-${kind}`,examPeriod:examPeriod as Source['examPeriod'],title:`114學年度第二學期第${period==='11421'?'一':'二'}次評量六年級英語科${kind==='paper'?'試卷':'答案卷'}`,publisher:'臺南市安南區和順國民小學',url:`https://achses.hses.tn.edu.tw/modules/tad_uploader/index.php?op=dlfile&cfsn=${kind==='paper'?paper:key}&cat_sn=${cat}`,schoolYear:114,semester:2,grade:6,subject:'英語' as const,edition:'原卷未標示教材系列及版本',accessedAt:'2026-10-25',accessStatus:'已下載原始PDF並逐題對照題本與手寫答案卷影像',reuseTerms:'學校正式定期評量的獨立文字試題，依著作權法第9條第1項第5款之說明整理；不是CC授權。未使用來源不明圖片、引用閱讀或缺少音檔的聽力題。',reuseEvidence:'https://www.tipo.gov.tw/tw/tipo1/209-21682.html',correctionNotes:'第一次評量第25題原刊答案與題幹時態有疑義，第29題答句存在可接受的替代選項；第二次評量對話26、28亦有答句疑義，均排除。不自行修正原刊答案。'})));
+function q(period:string,n:string,unit:string,stem:string,options:string[],correctOptionId:string,page=3):Question{return {questionId:`hses-english-${period}-${n}`,revision:1,subject:'英語',unit,unitMappingStatus:'整理分類',originalQuestionNumber:n,stem,options:options.map((text,i)=>({id:String(i+1),text})),correctOptionId,passageId:null,assetIds:[],questionSourceId:`hses-english-${period}-paper`,questionPage:page,answerSourceId:`hses-english-${period}-key`,answerPage:1,officialExplanation:null,status:'sourceChecked',verificationNotes:'2026-10-25逐題對照原始題本及同版本手寫答案影像，核對題號、完整對話、選項順序與原刊答案。原選項中的不正確英文照錄；未改寫題目、未生成答案或解析。'};}
+export const english114Bank:Question[]=[
+ q('11421','六、21','過去式與問答','A: ____ you ____ your homework last night?\nB: No, I ____.',['Did, do, didn’t','Do, do, don’t','Were, do, didn’t','Did, do, wasn’t'],'1',2),
+ q('11421','六、22','過去式與問答','A: Where did Mary ____ her dog?\nB: She ____ her dog at the park yesterday.',['walking, is walking','walks, walked','walk, walks','walk, walked'],'4',2),
+ q('11421','六、23','過去式與問答','A: Where ____ you yesterday?\nB: We ____ at home.',['did, were','were, were','was, were','did, was'],'2',2),
+ q('11421','六、24','過去式與問答','A: Did your brothers ____ this evening?\nB: No, they didn’t.',['visited a friend','cleans their room','watch videos','play the basketball'],'3'),
+ q('11421','七、26','日常對話','A: ____\nB: I go to school on foot.',['How do you go to school?','What do you go to school?','Did you go to school?','Where do you go to school?'],'1'),
+ q('11421','七、27','日常對話','A: ____\nB: She has dinner at 7:30.',['Do you have dinner?','What time does she have dinner?','Does she have dinner at six?','What time does she visit a friend?'],'2'),
+ q('11421','七、28','日常對話','A: What does Jack do in his free time?\nB: ____',['Yes, he watches TV.','No, he doesn’t watch TV.','He watches a TV in his free time.','He watches TV in his free time.'],'4'),
+ q('11421','七、30','過去式與問答','A: ____\nB: He was at home on Monday.',['What did you do on Monday?','Was Mike at home on Monday?','Where was Mike on Monday?','What did Mike do yesterday?'],'3'),
+ q('11422','六、21','時間介系詞','I watch videos ____ 9:00 pm..',['at','in','on','to'],'1'),
+ q('11422','六、22','數量與價格問句','A: How ____ skirts ____ there?\nB: Ten skirts.',['much, are','much, is','many, is','many, are'],'4'),
+ q('11422','六、23','所有格與代名詞','A: What’s ____ favorite season?\nB: ____ favorite season is winter.',['Grandpa’s, His','Grandma, Her','Amys, His','your brother’s, My'],'1'),
+ q('11422','六、24','數量與價格問句','A: How much ____ the jacket?\nB: ____ 199 NT dollars.',['are, It’s','were, They’re','is, They’re','is, It’s'],'4'),
+ q('11422','六、25','過去式與問答','A: How ____ the weather last Sunday?\nB: It ____ sunny and hot.',['is, is','were, were','were, was','was, was'],'4'),
+ q('11422','七、27','數量與價格問句','A: It’s winter. Amy needs(需要) a coat. ____\nB: Five hundred and fifty NT dollars.',['How old is the coat?','Is the coat five hundred and fifty NT dollars.','How much is the coat?','How many coats are there?'],'3')
+];
