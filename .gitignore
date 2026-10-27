@@ -11,3 +11,4 @@ docs/GITHUB-DIAGNOSTIC.md
 docs/SITES-ISSUE.md
 
 tests/.ui-build/
+.private/

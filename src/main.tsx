@@ -6,7 +6,6 @@ import {StudyMap} from './StudyMap';
 import {studyPlans,planQuestions,conceptQuestions,mappingOf} from './study-plan.ts';
 import type {Concept,Tier} from './study-plan.ts';
 import React,{useState,useRef,useEffect} from 'react';
-import {createRoot} from 'react-dom/client';
 import {BookOpen,ArrowRight,ArrowLeft,Bookmark,ChartNoAxesCombined,Library,Check,CheckCircle2,XCircle,Leaf,Globe,Calculator,Languages,PenLine,Download,Upload,ShieldCheck,RotateCcw,Flag,House,ChevronRight,Sun,NotebookPen} from 'lucide-react';
 import {bank,sources,missing,researchLinks,examPeriods,periodOf} from './bank';
 import type {State,Subject,Mode,Question,Completed} from './types';
@@ -19,8 +18,8 @@ const icons={國語:PenLine,英語:Languages,數學:Calculator,自然:Leaf,社�
 const color:Record<Subject,string>={國語:'rose',英語:'blue',數學:'green',自然:'amber',社會:'purple'};
 const profileKey=(slot:string)=>slot==='A'?STORAGE_KEY:STORAGE_KEY+'-profile-'+slot;
 function initial(){let slot='A';try{const saved=localStorage.getItem('six-review-selected-profile');if(saved&&['A','B','C'].includes(saved))slot=saved;const raw=localStorage.getItem(profileKey(slot));return {slot,data:raw?parseBackup(raw):emptyState(),error:''};}catch{return {slot,data:emptyState(),error:'瀏覽器紀錄無法讀取或格式已損壞。原資料未覆寫，你可以下載原始資料或匯入備份。'};}}
-const initialLoad=initial();
-export function App(){
+export function App({onLogout}:{onLogout?:()=>void}={}){
+ const [initialLoad]=useState(initial);
  const learner=initialLoad.slot;
  const [pendingLaunch,setPendingLaunch]=useState<LaunchKind|null>(null);
  const [s,setS]=useState<State>(initialLoad.data),[error,setError]=useState(initialLoad.error),[blocked,setBlocked]=useState(!!initialLoad.error),[page,setPage]=useState<Page>('home'),[notice,setNotice]=useState(''),[resultId,setResultId]=useState<string|null>(null),[confirmSubmit,setConfirmSubmit]=useState(false),[sourceQuestion,setSourceQuestion]=useState<Question|null>(null),[imported,setImported]=useState<State|null>(null),[askReset,setAskReset]=useState(false);
@@ -56,7 +55,7 @@ export function App(){
  function sourceLinks(q:Question){return <><p className="caption">{periodOf(q)??'考試階段待確認'} · {sources.find(s=>s.sourceId===q.questionSourceId)?.schoolYear}學年度<br/>原始題號：{q.originalQuestionNumber} · 題本第{q.questionPage}頁 · 答案第{q.answerPage}頁</p><div className="actions">{[q.questionSourceId,q.answerSourceId].map((id,i)=>{const source=sources.find(s=>s.sourceId===id);return source?<a className="text-link" key={id} href={source.url} target="_blank" rel="noreferrer">{i===0?'開啟原始題本':'開啟標準答案'} ↗</a>:<span key={id}>來源已停用</span>;})}</div><p className="caption">來源連結若失效，請到「題庫與來源」查看原始發布頁；也可將此題標記問題，暫停出題。</p></>;}
  function feedback(q:Question,a:ReturnType<typeof blankAnswer>){const correct=a.selectedOptionId===q.correctOptionId;return <div className={'feedback '+(a.skipped||!a.selectedOptionId?'neutral':correct?'correct':'incorrect')} role="status"><h3>{a.skipped?'— 已跳過，不計錯':!a.selectedOptionId?'— 未作答，未加入待複習':correct?'✓ 答對了':'✕ 這題加入待複習'}</h3><p>來源標準答案：{officialAnswer(q)}</p><p className="caption">{q.officialExplanation??'此來源未提供詳解'}</p>{sourceLinks(q)}</div>;}
  const navItems:[Page,string,typeof House][]=[['home','首頁',House],['training','逐題練習',BookOpen],['exam','模擬考',CheckCircle2],['review','錯題本',Bookmark],['vocab','單字',Languages],['progress','成績',ChartNoAxesCombined]];
- return <><header><a href="#main" className="skip">跳到主要內容</a><button className="brand" onClick={()=>go('home')} aria-label="六年級複習筆記首頁"><span className="brand-icon"><BookOpen size={24}/></span><span>複習筆記<span className="brand-small">國小六年級</span></span></button><nav aria-label="主要選單">{navItems.map(([p,label,Icon])=><button key={p} className={'nav-item '+(page===p||(page==='practice'&&p===(active?.mode==='quiz'?'exam':'training'))?'active':'')} onClick={()=>p==='training'?navigateLearning('training'):go(p)}><Icon size={19}/><span>{label}</span>{p==='review'&&reviewQuestions.length>0&&<span className="count">{reviewQuestions.length}</span>}</button>)}</nav><span className="browser-storage-note" title="進度會自動保存在目前瀏覽器">自動儲存</span></header>
+ return <><header><a href="#main" className="skip">跳到主要內容</a><button className="brand" onClick={()=>go('home')} aria-label="六年級複習筆記首頁"><span className="brand-icon"><BookOpen size={24}/></span><span>複習筆記<span className="brand-small">國小六年級</span></span></button><nav aria-label="主要選單">{navItems.map(([p,label,Icon])=><button key={p} className={'nav-item '+(page===p||(page==='practice'&&p===(active?.mode==='quiz'?'exam':'training'))?'active':'')} onClick={()=>p==='training'?navigateLearning('training'):go(p)}><Icon size={19}/><span>{label}</span>{p==='review'&&reviewQuestions.length>0&&<span className="count">{reviewQuestions.length}</span>}</button>)}</nav><span className="browser-storage-note" title="進度會自動保存在目前瀏覽器">自動儲存</span>{onLogout&&<button onClick={onLogout} aria-label="登出練習">登出</button>}</header>
  <main id="main" tabIndex={-1}>
  {pendingLaunch&&active&&<Modal title="目前有未完成的回合" close={()=>setPendingLaunch(null)}><p>{active.label??active.subject+'・'+names[active.mode]} · 第{active.index+1}/{active.questions.length}題</p><p>你要開始「{pendingLaunch}」。可繼續原回合，或先結束並保存原回合，再開始新的練習。未答題會標為未作答，不列為答錯。</p><div className="actions"><button className="primary" onClick={()=>{setPendingLaunch(null);go('practice');}}>繼續原回合</button><button onClick={()=>launchTraining(pendingLaunch,true)}>保存原回合，開始{pendingLaunch}</button><button onClick={()=>setPendingLaunch(null)}>取消</button></div></Modal>}
  {error&&<section role="alert" className="alert"><strong>儲存提醒</strong><p>{error}</p>{blocked&&<button onClick={()=>{try{download(localStorage.getItem(profileKey(learner))??'','損壞紀錄-原始資料.json');}catch{setNotice('瀏覽器限制讀取，無法下載原始資料。');}}}>下載原始資料</button>}<button onClick={exportData}>匯出目前紀錄</button><button onClick={()=>go('progress')}>管理備份與重設</button></section>}
@@ -102,8 +101,6 @@ function Empty({title,text,action}:{title:string;text:string;action:()=>void}){r
 function Stat({label,value}:{label:string;value:number|string}){return <div className="stat"><span>{label}</span><strong>{value}</strong></div>;}
 function ResultStats({completed}:{completed:Completed}){const r=score(completed);return <div className="stats-grid"><Stat label={`答對 / 全回合題數（含跳過、未答）`} value={`${r.correct} / ${r.total}`}/><Stat label="未作答（不視為觀念錯誤）" value={r.unanswered}/><Stat label="跳過（不計錯）" value={r.skipped}/><Stat label="已作答正確率" value={r.answered?`${r.correct} / ${r.answered}（${Math.round(r.correct/r.answered*100)}%）`:'0 / 0（尚無）'}/></div>;}
 function Modal({title,close,children}:{title:string;close:()=>void;children:React.ReactNode}){const dialog=useRef<HTMLDialogElement>(null);useEffect(()=>{const d=dialog.current!;d.showModal();return()=>d.close();},[]);return <dialog ref={dialog} onCancel={e=>{e.preventDefault();close();}} aria-labelledby="modal-title"><div className="modal-title"><h2 id="modal-title">{title}</h2><button onClick={close} aria-label="關閉對話框">×</button></div>{children}</dialog>;}
-const rootElement=document.getElementById('root');
-if(rootElement)createRoot(rootElement).render(<App/>);
 
 
 import './hub.css';

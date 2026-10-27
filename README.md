@@ -1,6 +1,6 @@
 # 六年級・複習筆記
 
-繁體中文、靜態前端、無登入與模型服務的國小六年級複習網站。各科目標200題；有效題數以網站首頁及 `docs/bank-summary.json` 為準。逐題來源、原刊答案與排除狀態見 `docs/question-audit.json`，目前進度及部署限制見 `docs/DELIVERY.md`。
+繁體中文、靜態前端、提供簡單帳密入口的國小六年級複習網站，無模型服務。入口可減少一般訪客直接瀏覽，但不是私人代管；原始碼與資產仍公開。說明見 `docs/GITHUB-ACCESS.md`。各科目標200題；有效題數以網站首頁及 `docs/bank-summary.json` 為準。逐題來源、原刊答案與排除狀態見 `docs/question-audit.json`，目前進度及部署限制見 `docs/DELIVERY.md`。
 
 ## 啟動
 
