@@ -23,6 +23,13 @@ async function mount(seed=emptyState()){
  const click=async(label:string)=>{const button=[...host.querySelectorAll('button')].find(b=>b.textContent?.trim()===label||b.querySelector('strong')?.textContent===label||b.getAttribute('aria-label')===label);assert.ok(button,'Missing button: '+label);await React.act(async()=>{button.click();});};
  return {host,click,state:()=>parseBackup(testWindow.localStorage.getItem(STORAGE_KEY)!),close:async()=>{await React.act(async()=>root.unmount());host.remove();}};
 }
+
+test('重新開啟直接接回未完成題目，不先繞回首頁',async()=>{
+ const first=await mount();let saved;
+ try{await first.click('隨手練10題');saved=first.state();}finally{await first.close();}
+ assert.ok(saved?.active);
+ const reopened=await mount(saved);try{assert.ok(reopened.host.querySelector('.question-heading'));assert.equal(reopened.state().active!.id,saved.active.id);}finally{await reopened.close();}
+});
 test('實際React按鈕：隨手練開始、同回合繼續、切換前保存原回合',async()=>{
  const app=await mount();try{
   await app.click('隨手練10題');const first=app.state().active!;assert.equal(first.mode,'quiz');assert.equal(first.questions.length,10);assert.match(first.label!,/^隨手練10題/);assert.ok(app.host.querySelector('.question-heading'));

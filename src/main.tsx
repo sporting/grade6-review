@@ -22,7 +22,7 @@ export function App({onLogout}:{onLogout?:()=>void}={}){
  const [initialLoad]=useState(initial);
  const learner=initialLoad.slot;
  const [pendingLaunch,setPendingLaunch]=useState<LaunchKind|null>(null);
- const [s,setS]=useState<State>(initialLoad.data),[error,setError]=useState(initialLoad.error),[blocked,setBlocked]=useState(!!initialLoad.error),[page,setPage]=useState<Page>('home'),[notice,setNotice]=useState(''),[resultId,setResultId]=useState<string|null>(null),[confirmSubmit,setConfirmSubmit]=useState(false),[sourceQuestion,setSourceQuestion]=useState<Question|null>(null),[imported,setImported]=useState<State|null>(null),[askReset,setAskReset]=useState(false);
+ const [s,setS]=useState<State>(initialLoad.data),[error,setError]=useState(initialLoad.error),[blocked,setBlocked]=useState(!!initialLoad.error),[page,setPage]=useState<Page>(()=>initialLoad.data.active?'practice':'home'),[notice,setNotice]=useState(''),[resultId,setResultId]=useState<string|null>(null),[confirmSubmit,setConfirmSubmit]=useState(false),[sourceQuestion,setSourceQuestion]=useState<Question|null>(null),[imported,setImported]=useState<State|null>(null),[askReset,setAskReset]=useState(false);
  const file=useRef<HTMLInputElement>(null); const subject=s.settings.subject;
  const period=s.settings.examPeriod??'全部';
  const plans=studyPlans.filter(p=>p.subject===subject);
